@@ -1,0 +1,96 @@
+## Micro framework following atomic design
+
+O micro framework segue a estrutura atômica organica, dividida em: Atomos, moléculas, organelas e outras abstrações.
+
+### Atoms
+
+- “Atoms are the basic building blocks of matter” Brad Frost
+- In the context of OrganicCSS the atom is simply a property and its value.
+- The main idea of OrganicCss is to provide the atoms. Very often what you build with them will be different. But the atoms are so generic and you can transfer them from project to project.
+- Full list could be seen [here](https://github.com/krasimir/organic-css/tree/master/src/atoms)
+
+Exemple:
+
+```css
+@include define-atom("block") {
+    display: block;
+}
+@include define-atom("font-family") {
+    font-family: Georgia;
+}
+```
+
+```css
+.login-box {
+    @include atoms((
+        block,
+        font-family
+    ));
+}
+```
+
+### Molecules
+
+- Molecule is a DOM element which needs styling, but doesn’t have children. Or if it has children they are not directly connected to it. For example `<img src="logo.jpg"/>` could be a molecule.
+- If you find difficult to recognize them molecules in your page, just thing of what is build by atoms.
+    - Definition:
+    
+    ```css
+    @mixin header {
+        @include atoms((
+            block,
+            clearfix,
+            font-family
+        ));
+    }
+    ```
+    
+    - Using molecules
+    
+    ```css
+    .header {
+        @include header;
+        @include header-title;
+        @include header-column;
+        @include header-column-link;
+        @include header-title-small-text;
+    }
+    ```
+    
+    Simply include the mixins. The thing which uses molecules is the organel
+    
+
+### Organelles
+
+- Once you recognize which DOM elements are molecules you will see what organelles are. For example the typical `<form>` element is a great example of organel. It contains molecules like `label, input or textarea`
+    - Definition and usage
+    
+    ```css
+    .header {
+        @include header;
+        @include header-title;
+        @include header-column;
+        @include header-column-link;
+        @include header-title-small-text;
+    }
+    ```
+    
+    The definition of organelles is actually writing selectors and including molecules (mixins). **You should not apply any css rules directly here.** That’s what atoms and molecules for.
+    
+
+### More abstractions
+
+- It’s a matter of choice how you will continue abstracting your CSS
+- The next thing after the organelle is a cell.
+    - This could be the `<body>` tag or a `<div>` element.
+- You can use the following hierachy
+    - **Atom → Molecule → Organelle → Cell → Tissue → Organ → Organism**
+    - You may have more then 8 nested blocks
+        - Also there are elements which need CSS styling happening via atoms, but htey are not molecules, like for example your main container.
+- “I decided to forget about the HTML markup and look only the stylesheets”
+- If something needs atoms and nothing else then it is a molecule. If I need to put an organelle inside it, then it is a cell and so on.
+
+### Reference
+https://krasimir.github.io/organic-css/
+
+https://github.com/krasimir/organic-css

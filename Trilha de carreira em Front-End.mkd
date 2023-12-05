@@ -1,0 +1,57 @@
+## O que é ser uma pessoa desenvolvedora front-end?
+
+É responsável por cuidar e “dar vida” às interfaces e interação com o usuário, seja através de um navegador (site, blog, etc) ou aplicativo (redes sociais, mensageiros instantâneos). Em resumo, é aquela que organiza e compartilha informações (que são vinda através de um servidor de dados, back-end)
+
+## Principais áreas de atuação
+
+- Web
+- Mobile
+
+## Alguns mitos sobre a área de front-end
+
+### “Ah, é simples de fazer! É só colorir site e fazer uns HTML”
+
+A área de front reque bastante estudo e é uma das áreas que mais tem crescido tanto com o surgimento de novas tecnologias quanto a busca de soluções para melhorias e qualidade de código
+
+### “Não precisa aprender lógica de programação”
+
+O conhecimento básico de lógica de programação e algoritmos antes de aprender uma linguagem faz toda a diferença no processo de aprendizagem e desenvolvimento profissional
+
+### “Mas aí é só aprender usar um framework/lib que tá tudo certo”
+
+Sabemos que todos os dias surgem novos frameworks no mercado, mas antes de aprender um é necessário ter o conhecimento de base (que vamos falar mais a frante)
+
+## Como posso me tornar uma pessoa desenvolvedora front-end?
+
+Foque na base e estude, conhecimento é tudo
+
+### O caminho das pedras
+
+- HTML
+- CSS
+- Lógica de programação
+- Javascript
+- **Bônus:** Git
+
+## Onde estudar? - Cursos online
+
+- Alura (Caelum) - Pago
+- FreeCodeCamp - Gratuito (Inglês)
+- Udemy - Pago mas existem gratuitos
+- W3Schools - Gratuito (inglês)
+- CodeAcademy - Gratuito (inglês)
+
+## Dicas
+
+- Não existe fórmula mágica
+- Não se desespere, fuja dos *hypes*
+- Conhecimento teórico é importantíssimo, mas não fique preso somente a ele. Pratique!
+- Caso se sinta à vontade, procure participar de alguma comunidade que ofereça algum tipo de mentoria
+- Dê uma olhada no Linkedin e comece a analisar o perfil das vagas em front-end
+- Se possível, participe de eventos (presencial e online) e conheça pessoas
+- Não se esqueça de aperfeiçoar suas soft skills (pessoas > código)
+- Cuide da sua saúde mental. Entre um estudo e outro, descanse!
+
+## Respeite o seu tempo de aprendizado
+
+Não se compare com as outras pessoas. Cada um tem o seu processo de evolução. Um passo de cada vez. Não disista, você é capaz

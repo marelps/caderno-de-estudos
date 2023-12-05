@@ -1,0 +1,154 @@
+## O que é CSS Grid Layout?
+
+### Definição
+
+O CSS Grid Layout oferece um sistema de layout baseado em grades (grids), com linhas (rows) e colunas (cols), facilitando o design de páginas da web sem a necessidade de usar floats e positions
+
+### display:grid
+
+### Por quê usá-lo?
+
+- Maior flexibilidade
+- Sem uso de frameworks (ex.: Bootstrap, foundation)
+- Escrita menor e mais verboso
+- Código semântico
+
+### Propriedades do CSS Grid Layout
+
+### grid-template
+
+Define as linhas e colunas do grid
+
+`- grid-template-columns`
+
+`- grid-template-rows`
+
+### grid-gap
+
+Especifica o tamanho do espaçamento entre as colunas e linhas
+
+`- grip-gap`
+
+`- grid-row-gap`
+
+`- grid-column-gap`
+
+### justify-items
+
+Alinha o conteúdo em um item do grid ao longo do eixo da linha
+
+`- justify-items: start`
+
+`- justify-items: end`
+
+`- justify-items: center`
+
+`- justify-items: stretch (defaut)`
+
+### align-items
+
+Alinha o conteúdo em um item do grid ao longo do eixo da coluna
+
+`- align-items: start`
+
+`- align-items: end`
+
+`- align-items: center`
+
+`- align-items: stretch (default)`
+
+### justify-content
+
+Alinha todo o grid dentro do container
+
+`- justify-content: start`
+
+`- justify-content: end`
+
+`- justify-content: center`
+
+`- justify-content: stretch`
+
+`- justify-content: space-between`
+
+`- justify-content: space-around`
+
+`- justify-content: evenly`
+
+### align-content
+
+Alinha verticalmente todo o grid deentro do container
+
+`- align-content: start`
+
+`- align-content: end`
+
+`- align-content: center`
+
+`- align-content: stretch`
+
+`- align-content: space-between`
+
+`- align-content: space-around`
+
+`- align-content: evenly`
+
+### grid-auto-flow
+
+Coloca automaticamente os itens do grid que não são explicitamente colocados numa “arrumação automática”
+
+`- grid-auto-flow: row`
+
+`- grid-auto-flow: column`
+
+`- grid-auto-flow: dense`
+
+### grid-column
+
+Determina um local baseado em coluna de itens no grid
+
+`- grid-column-start`
+
+`- grid-column-end`
+
+`- grid-column`
+
+### grid-row
+
+Determina um local com base em linha dos itens no grid
+
+`- grid-row-start`
+
+`- grid-row-end`
+
+`- grid-column`
+
+### justify-self
+
+Alinha o conteúdo de um item do grid específico ao longo do eixo da linha
+
+`- justify-self: start`
+
+`- justify-self: end`
+
+`- justify-self: center`
+
+`- justify-self: stretch`
+
+### align-self
+
+Alinha o conteúdo de um item do grid específico ao longo do eixo da coluna
+
+`- align-self: start`
+
+`- align-self: end`
+
+`- align-self: center`
+
+`- align-self: stretch`
+
+### Bônus: grid-template-areas
+
+Especifica as áreas dentro do layout no grid
+
+`- grid-template-areas`

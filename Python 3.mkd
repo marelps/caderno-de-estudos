@@ -1,0 +1,28 @@
+`>>> print (”Ola mundo”)`
+
+`>>> help`
+
+`>>> print (”Brasil”, “ganhou”, 5, “titulos mundiais”, sep=”-”)`
+
+- end = “\n”
+- end =” “
+
+`>>> pais = “Italia”` → Definição de variável
+
+`>>> type (pais)` → Retorna o tipo da variável, no caso dessa é uma “str” string
+
+`quantidade = 4`
+
+`type (quantidade)`
+
+`end` → Acontece no final da função
+
+ É possível redefinir uma variável utilizando novamente o código de definição
+
+`pais = “Brasil” str`
+
+`pais = 624 int`
+
+`pais = 7,9 float`
+
+Uma variável só pode existir ao ser declarada
