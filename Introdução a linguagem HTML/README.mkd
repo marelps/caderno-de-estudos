@@ -1,0 +1,279 @@
+# Introdução a linguagem HTML
+
+## Como uma página da internet funciona?
+
+Uma página de internet é um arquivo de texto, em geral, escrito na linguagem HTML. Ele deve ficar armazenado em um computador que deve estar ligado o tempo todo e conectado à internet. A esse computador damos o nome de "servidor". 
+Outros computadores (chamados de clientes) podem acessar uma determinada página através de um navegador, inserindo um endereço (ou domínio). Esse endereço indicará na internet o servidor que armazena a página. Assim, o servidor enviará a página para o cliente.
+
+<img src="img1.png" alt="Conexão cliente e servidor com a internet">
+
+## Quebras de linhas
+
+Podemos usar a tag `<br>` para inserir quebras de linha em nossa página.
+
+## Como criar parágrafos
+
+Para se  declarar parágrafos em páginas pode-se utilizar a tag `<p>`. Entretanto, é  possível aplicar diversos tipos de formatações a parágrafos. Veja o exemplo a  seguir:
+
+```
+<p>
+    <b>Texto em negrito</b><br>
+    <i>Texto em itálico</i><br>
+    <u>Texto sublinhado</u><br>
+    <sub>Texto subscrito</sub><br>
+    <sup>Texto sobrescrito</sup><br>
+    <big>Texto com fonte maior do que o padrão</big><br>
+    <small>Texto com fonte menor do que o padrão</small><br>
+    <em>Texto em itálico</em><br>
+    <strong>Texto em negrito</strong>
+</p>
+```
+
+Ao exibir nosso código em um  navegador veremos o seguinte resultado:
+
+<img src="img2.png" alt="Resultado dos diferentes tipos de textos">
+
+Podemos ainda  alterar a fonte usando o atributo style e a propriedade font-family:
+
+```
+<!-- Declarando uma única fonte -->
+<p style="font-family: 'Times New Roman'">Olá, mundo!</p>
+ 
+<!-- Declarando duas possíveis fontes -->
+<p style="font-family: 'Helvetica, Arial'">Olá, mundo novamente!</p>
+ ```
+
+Observe que o  trecho:
+
+```
+<!-- Declarando uma única fonte -->
+```
+
+Não é  mostrado na tela do navegador. Use os símbolos de `<!-- e -->` para  inserir comentários. 
+Comentários permitem a organização do código.
+
+## Tags de títulos
+São 6 ao todo:
+```
+<h1>Título 1</h1>
+ 
+<h2>Título 2</h2>
+ 
+<h3>Título 3</h3>
+ 
+<h4>Título 4</h4>
+ 
+<h5>Título 5</h5>
+ 
+<h6>Título 6</h6>
+```
+
+## Estilos
+
+Estilos permitem que sua página  tenha diversos tipos de formatações. Eles podem ser declarados com o atributo  style (como mostrado anteriormente) ou com a tag `<style>`.
+No exemplo a  seguir vamos demonstrar como alterar a cor de um texto:
+
+```
+<style>
+p { color: red; }
+</style>
+```
+
+Esse exemplo aplica a cor  vermelha a todos os elementos do tipo parágrafo.
+Podemos ainda  aplicar cores ao fundo. Observe o exemplo a seguir:
+
+```
+<style>
+body { background-color: red; }
+</style>
+```
+
+Nesse exemplo, o plano de fundo  da página foi alterado para a cor vermelha.
+
+Agora vamos  construir uma página completa aplicando estilos:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meus estilos</title>
+    <style>
+        body { 
+            background-color: red; 
+            color:green; 
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <p>Olá mundo</p>
+ 
+</body>
+ 
+</html>
+ ```
+
+Veja que a tag `<style>`  deve ser declarada dentro da tag `<head>`. 
+
+## Estrutura de um website
+
+Para que websites sejam bem  desenvolvidos, existe um conjunto de tags que indicam onde cada conteúdo deve  ser inserido. Em geral, essas tags são apenas estruturais, ou seja, ao serem  inseridas, não trazem modificações a estrutura da página. 
+Observe a seguir algumas tags  estruturais:
+
+<img src="img3.png" alt="Estrutura de um website">
+
+Destaco a  tag `<div>`. Essa tag permite a inserção de divisórias nas páginas, ou  seja, são tags estruturais que permitirão que você organize seu código.
+
+
+```
+<div>
+    <p>Conteúdo de uma div</p>
+</div>
+```
+
+## Tabelas
+Podemos criar tabelas usando a tag `<table>`. 
+Cada linha deve ser declarada com a tag `<tr>` e cada célula com a tag `<td>`. 
+Opcionalmente podemos usar a tag `<th>` para declarar células que representem a linha de cabeçalho.
+
+<img src="img4.png" alt="Estrutura da tabela com td, th e tr">
+
+## Linhas horizontais e listas
+Podemos adicionar linhas  horizontais usando a tag `<hr>`.
+
+Listas podem  ser criadas usando a tag `<ul>` (listas não ordenadas) ou  `<ol>` (listas ordenadas) e cada elemento pode ser inserido com  a tag `<li>`.
+
+```
+<!-- Lista ordenada -->
+<ol>
+<li>Primeiro elemento</li>
+<li>Segundo elemento</li>
+<li>Terceiro elemento</li>
+</ol>
+<!-- Lista não ordenada -->
+<ul>
+<li>Primeiro elemento</li>
+<li>Segundo elemento</li>
+<li>Terceiro elemento</li>
+</ul>
+```
+
+<img src="img5.png" alt="Ilustração de como ficaria as listas ordenadas e as listas não ordenadas">
+
+## HTML5
+HTML5 é a mais recente versão da  linguagem HTML. Trouxe novas
+funcionalidades e perspectivas  em relação ao papel exercido pelo HTML na Web. HTML traz novas  tags, como `<header>` para
+cabeçalhos, `<nav>` para  menus, `<video>` e `<audio>` para respectivos elementos, além de apresentar  uma sintaxe mais simples como por exemplo para declaração do  DOCTYPE.
+Uma página HTML é composta por alguns elementos básicos. São eles: 
+
+1. A declaração do tipo do  documento; 
+2. A tag HTML, que armazenará todo conteúdo da página; 
+3. O cabeçalho, que armazena informações estruturais da página;
+4. O corpo, que  armazenará os conteúdos e formatações da página.
+
+```
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+ 
+        <title>Hello</title>
+ 
+    </head>
+    
+    <body>
+ 
+        <p>Olá, mundo!</p>
+    
+    </body>
+ 
+</html>
+```
+
+- Digite o código acima em um  editor de textos (por exemplo, o bloco de notas ou o Sublime Text).
+- Salve o  arquivo com o título “minha_pagina.html". 
+    - Página HTML possuem a extensão  “.html”. 
+- Agora abra o arquivo em um navegador (como Chrome, Edge ou Firefox).  
+
+O navegador irá exibir a seguinte página:
+
+<img src="img6.png" alt="Exibição do código acima no navegador">
+
+## Construindo uma página completa
+Nesta aula vamos aprender a  construir uma página completa. Vamos usar como exemplo a página demonstrada na  aula "Estruturas de um Website".
+
+<img src="img3.png" alt="Estrutura de uma página completa">
+
+Agora, vamos  criar a estrutura desta página usando HTML: 
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Página completa</title>
+    <meta charset="UTF-8">
+ 
+</head>
+ 
+<body>
+ 
+    <!-- Cabeçalho -->
+    <header>
+ 
+        <nav></nav>
+ 
+    </header>
+ 
+    <!-- Conteúdo -->
+    <div>
+ 
+        <article>
+            <section></section>
+        </article>
+        
+        <aside></aside>
+ 
+    </div>
+ 
+    <!-- Rodapé -->
+    <footer></footer>
+ 
+</body>
+ 
+</html>
+```  
+
+## Alterando as cores
+### `<style>  cores </style>`
+
+Você pode alterar as cores de  seu texto e de sua página com a tag `<style>`.
+Para isso devemos aplicar as  chamadas propriedades:
+- color: altera a cor do texto;
+- background-color: altera a cor de fundo.
+ 
+Para isso, você  deve adicionar o nome da cor em inglês ou o código RGB. Por exemplo:
+
+```
+<html>
+<head>
+<style>
+    body{
+        color: red;
+        background-color:#FFFFFF;
+    }
+</style>
+</head>
+<body>
+Olá mundo!
+</body>
+</html>
+```
+ 
+Vamos tentar entender o código:
+
+A tag style aplica um  determinado estilo à página. No caso, você aplicou um estilo a tudo que  estiver no body. 
+
+A cor aplicada ao texto é vermelha (red) e ao fundo é branco  (#FFFFFF).
+

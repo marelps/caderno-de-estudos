@@ -1,0 +1,123 @@
+### **O que é lógica?**
+
+“Sequencia coerente, regular e necessária de acontecimentos, coisas”
+
+### **O que é logica de programação?**
+
+Buscar a melhor sequencia de ações para solucionar um problema
+
+### **O que é um algoritmo?**
+
+Sequencia de passos que resolve um problema
+
+**Função repetir:** repete uma ação
+
+**Função condicional:** “Se existir algo, faça tal coisa” diminui as linhas de código
+
+### **Pseudocódigo**
+
+Forma genérica de escrever um algoritmo, utilizando uma linguagem simples. Utilizada somente para aprender a programar.
+
+### **Fluxograma**
+
+“Ferramenta utilizada para representar graficamente o algoritmo
+
+**Fluxo de dados =** Fluxograma
+
+*Outra definição:* representação esquemática de um processo. Documentação necessária para a execução de um processo qualquer
+
+- Não existe um padrão para o fluxograma
+- O único objetivo é que o fluxograma seja claro e objetivo.
+
+### **Variáveis e constantes**
+
+**Variáveis**
+
+“Objeto capaz de reter e representar um valor ou expressão”
+
+“Espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo”
+
+aluno = José *
+
+*José é variável, informação que o usuário inseriu 
+
+**Declaração de variável**: Antes do inicio do programa
+
+**Tipos de variáveis:** Podem ser classificadas por 4 tipos: numéricos, caracteres, alfanuméricos (letras ou números) ou lógicas (verdadeiro ou falso)
+
+**Constante**
+
+São valores imutáveis que não alteram na vida útil do programa
+
+**Ex:** 
+
+`Inicio`
+
+`Declara pi =3,14`
+
+`Declara raio: número`
+
+`Fim`
+
+### **Expressões Aritméticas**
+
+Utilizam operadores aritméticos e funções aritméticas envolvendo constantes e variáveis.
+
+### **Operadores aritméticos**
+
+*Soma* +
+
+*Subtração* -
+
+*Multiplicação* *
+
+*Divisão* / 
+
+*Potencialização* ^
+
+*Porcentagem* %
+
+### Expressões literais
+
+Expressões com constantes e/ou variáveis que tem como resultado os valores liberais. Iremos utilizas as expressões literais na atribuições de valores para uma variável ou constante
+
+**Ex:**
+
+nome = “José da Silva” *(Atribuição)*
+
+nome ← “José da Silva”
+
+media = (nota1 + nota2 + nota3 + nota4)/4 
+
+### Operadores Relacionais
+
+Compostas por outras expressões ou variáveis numéricas com operadores relacionais.
+
+Retornam valores lógicos (verdadeiro/falso) 
+
+| Símbolo | Nome do operador | Exemplo | Leitura |
+| --- | --- | --- | --- |
+| > | maior que | x > y | x é maior que y |
+| >= | maior ou igual | x >= y | x é maior ou igual y |
+| < | menor | x < y | x é menor que y |
+| <= | menor ou igual | x <= y | x é menor ou igual a y |
+| == | igualdade | x == y | x é igual a y |
+| != | diferente | x != y | x é diferente de y |
+
+### Tomadas de decisão
+
+Responsável por 60% da programação ode um programa
+
+> “Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução”
+> 
+
+### Concatenação
+
+- Designar a operação de unir o conteúdo de duas strings*
+- Duas ou mais cédulas, da origem a um único resultado
+
+*Sequencia de caracteres
+
+### Metacognição
+
+Pensar como você pensa

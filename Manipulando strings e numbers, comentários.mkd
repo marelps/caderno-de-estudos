@@ -1,0 +1,128 @@
+## **Aprendendo sobre `string.length`**
+
+No mundo da tecnologia a **auto-aprendizagem** é essencial. Constantemente aparecem ferramentas, linguagens ou tecnologias novas que você precisa aprender por conta própria para se manter atualizado. Portanto, é importante que, desde o início do seu caminho no mundo da programação, você se acostume em aprender por conta própria e ter o controle do seu crescimento profissional.
+
+A internet é um excelente recurso para aprender por conta própria. É como uma grande biblioteca de conhecimento sempre disponível. Vamos ver um exemplo:
+
+No JavaScript existe uma forma fácil de obter o comprimento de uma `string` que devolve a quantidade de caracteres que compõem a `string`. Por exemplo, o comprimento de 'Olá' é 3 (porque são 3 caracteres) e a de *"supercalifragilisticexpialidocious"* é 34 (porque são 34 caracteres).
+
+Como podemos aprender sobre isso? Comece abrindo o Google e realizando uma pesquisa tipo: *"obter o comprimento de uma string em JavaScript"*. Isso dá vários resultados que podem nos ajudar.
+
+Com certeza um dos resultados é da **Rede de Desenvolvedores da Mozilla (MDN)**. Essa fonte é uma das mais confiáveis para pesquisar sobre o JavaScript. De fato, o criador do JavaScript, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), é um dos fundadores da Fundação Mozilla e a Corporação Mozilla. Como diz diretamente o site da [MDN](https://developer.mozilla.org/pt-BR/docs/MDN/About):
+
+> A Rede de Desenvolvedores da Mozilla (MDN) é uma plataforma de aprendizagem em evolução para tecnologias da Web e o software que alimenta a Web, incluindo:
+> 
+> 1. Padrões web como CSS, HTML e JavaScript
+> 2. Open Web app development
+> 3. Firefox add-on development
+
+Leia com atenção a seção de [string.length](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/length) que oferece MDN. Talvez você não entenda absolutamente tudo (especialmente o que se refere à UTF-16), mas isso é normal. Você deve controlar esse sentimento e avançar mesmo com um pouco de incerteza. Reveja o exemplo com calma; parece bastante claro assim como o assunto sobre como obter o comprimento de uma string:
+
+```
+var x = "Mozilla";
+var empty = "";
+
+console.log("Mozilla tem " + x.length + " caracteres.");
+/* "Mozilla tem 7 caracteres" */
+
+console.log("A cadeia vazia tem um comprimento de " + empty.length);
+/* "A cadeia vazia tem um comprimento de 0" */
+
+```
+
+Nota: console.log() é um comando que mostra uma mensagem no console para facilitar a depuração do código Javascript. A vantagem de usar ele comparado com, por exemplo, a função alert(), é que console.log() não detém a execução do código até que o usuário aceite a mensagem de alerta como acontece com o alert().
+
+Depois de ler a documentação deveria ficar claro que para conhecer o comprimento de strings, o que precisamos fazer é colocar um *.length* no final, assim:
+
+```
+var shortWord = 'Olá'
+var longWord = "supercalifragilisticexpialidocious"
+
+// Determinar comprimento de cada string
+
+var lengthShortWord = shortWord.length;
+var lengthLongWord = longWord.length;
+
+// Imprimir no console
+
+console.log(lengthShortWord);
+// retorna: 4
+console.log(lengthLongWord);
+// retorna: 34
+
+// também podemos imprimir direto no console, assim:
+console.log('hola'.length);
+// retorna: 4
+"supercalifragilisticexpialidocious".length;
+// retorna: 34
+
+```
+
+## **Praticando a auto-aprendizagem**
+
+Agora que ficou demonstrado o *"super poder da auto-aprendizagem"*, leia na MDN outras coisas interessantes que podemos fazer com `strings` e `numbers`, como:
+
+1. [Obter um caractere específico de uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+2. [Obter o índice de um caractere de uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
+3. [Converter para maiúsculas uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+4. [Converter para minúsculas uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+5. [Cortando uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+6. [Converter uma string em um número](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+No final destas leituras, você deve saber muito bem como funcionam:
+
+- `charAt()`
+- `indexOf()`
+- `toUpperCase()`
+- `toLowerCase()`
+- `slice()`
+- `parseInt()`
+
+## **Outros recursos de auto-aprendizagem**
+
+Se você ainda tem dúvidas sobre esses conceitos, você poderá analisar outras formas de auto-aprendizagem:
+
+1. Procure outros recursos na internet. Um deles que é muito bom é o [stackoverflow](https://es.stackoverflow.com/). Em português costuma ter menos conteúdo de qualidade, assim você talvez tenha que usar o tradutor do Google
+2. Faça uma consulta em algum grupo do Facebook
+3. Consulte uma amiga que saiba de programação :)
+
+**NOTA: É importante NÃO avançar se você não conseguiu compreender bem os conceitos anteriores. O que segue neste curso se constrói sobre esses conceitos, portanto, tome o tempo necessário para aprender bem antes de avançar.**
+
+---
+
+# Comentários
+
+Muitas vezes, não importa quão descritivo você escreva seu código, é necessário oferecer mais informação para que outras pessoas possam entender facilmente como funciona o seu programa. Para adicionar essa informação sem afetar o fluxo do seu código, existem os *comentários*.
+
+Eles são assim:
+
+```
+// Isto é um comentário de uma linha
+
+/*
+  Isto é um comentário de
+  múltiplas
+  linhas
+*/
+
+```
+
+O computador ignora os comentários completamente. Os comentários no JavaScript começam com `//`. Tudo o que segue às barras comuns (na mesma linha) é ignorado pelo interpretador do JavaScript. Os comentários de múltiplas linhas começam com `/*` e acabam com `*/`. Tudo o que fica entre isso é ignorado pelo programa.
+
+Dessa forma, os comentários não têm efeito algum em como se executa o programa. Só estão aí para prover contexto. É uma **boa prática** incluir comentários no código para melhorar sua legibilidade.
+
+## **Comentários como sugestões ou instruções**
+
+Muitos dos exercícios e questionários neste curso vão incluir os comentários para oferecer sugestões ou instruções.
+
+Por exemplo, é normal ver algo tipo:
+
+```
+const firstName = // seu código aqui
+console.log(/* seu código aqui */);
+
+```
+
+A ideia é que você apague o comentário e utilize esse espaço para escrever seu código. Não se preocupe em apagar os comentários. Aliás, **não** apague outras partes do programa. Se você faz isso, é muito provável que não funcione muito bem.
+
+Agora sim, continue com os exercícios e questionários desta lição. Boa sorte!

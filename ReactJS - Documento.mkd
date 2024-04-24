@@ -1,0 +1,189 @@
+# História e Conceitos
+
+- Criado em 2011 no Facebook
+- Baseado no XHP, um framework para criação de HTML no PHP
+- Utilizado no mural de notícias de ferramentas
+- 2012 - Utilizado no Instagram
+- 2013 - Anúncio para liberação OpenSource na JSConfUS
+- 2015 - UWP (Universal Windows Platform)
+
+React é uma biblioteca e não um framework
+
+**Prós da utilização do React**
+
+- Mais controle da aplicação
+- Não vai ficar amarrado a um framework e sua evolução
+- Trabalha com o JS de uma forma mais simples
+
+**Contras**
+
+- Ecossistema do React é muito grande
+
+A principal função é a criação da interface para o usuário
+
+React é uma biblioteca muito popular e é utilizado na maioria dos projetos
+
+Javascript é uma das linguagens de programação mais utilizada pois é possível utilizar tanto para o front-end, back-end, desktop e mobile. Utilizado em qualquer lugar
+
+- React é uma linguagem declarativa
+    - Não está muito preocupada com os passos que a aplicação tomou, que ela está considerando, para um determinado resultado
+- Declarativa vs Imperativa
+
+O react está preocupado apenas com o que é exibido na interface do usuário, o que será exibido
+
+- React é baseado em componentes.
+
+Empresas que utilizam
+
+- The New York Times
+- Nubank
+- Instagram
+- Netflix
+- Facebook
+- Ifood
+- Airbnb
+
+> O React é uma biblioteca JavaScript declarativa, eficiente e flexivel para criar interfaces com o usuário. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”
+> 
+
+# Configuração
+
+React é uma Single Page Application, SPA, ou seja, uma aplicação única. Ele vai renderizar de uma vez o projeto e suas rotas, então toda vez que o usuário mudar de rota, ele não vai para uma outra pagina, outro contexto ou outra aplicação web.
+
+Vantagens de performance, mais fácil no entendimento do código.
+
+React.Component {
+
+```
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shopping-list">
+        <h1>Lista de compras para {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>);
+  }
+}
+
+// Exemplo de uso: <ShoppingList name="Mark" />
+```
+
+Utilizamos componentes para dizer ao React o que queremos ver na tela. Quando nossos dados forem alterados, o React atualizará novamente com eficiência nossos componentes. 
+
+Aqui, o ShoppingList é um **componente React de classe** ou **component React do tipo classe**. Um componente recebe parâmetros, chamados `props` (abreviação de propriedades), e retorna uma hierarquia de elementos para exibir através do método `render`.
+
+O método `render` retorna uma *descrição* do que você deseja ver na tela. React recebe a descrição e exibe o resultado. Em particular, `render` retorna um **elemento React**, que é uma descrição simplificada do que renderizar. A maioria dos desenvolvedores do React usa uma sintaxe especial chamada “JSX”, que facilita a escrita desses elementos. A sintaxe `<div />` é transformada em tempo de compilação para `React.createElement ('div')`. O exemplo acima é equivalente a:
+
+```
+return React.createElement('div', {className: 'shopping-list'},
+  React.createElement('h1', /* ... filhos de h1 ... */),
+  React.createElement('ul', /* ... filhos de ul ... */)
+);
+```
+
+Passar props é a forma como os dados fluem em aplicações React, de pais para filhos.****
+
+Em [classes JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
+, você sempre precisa chamar `super`
+ ao definir o construtor de uma subclasse. Todas os componentes de classe React que possuem um método `constructor`
+ devem iniciá-lo com uma chamada `super (props)`
+.
+
+Ao chamar `this.setState` a partir de um manipulador `onClick` no método `render` do componente Square, nós dizemos ao React para renderizar novamente aquele Square sempre que seu`<button>` for clicado. Após a atualização, o `this.state.value` do Square será `'X'`, então vamos ver o `X` no tabuleiro do jogo. Se você clicar em qualquer quadrado, um `X` deve aparecer.
+
+Quando você chama `setState` em um componente, o React atualiza automaticamente os componentes filhos dentro dele também.
+
+Quando o state do Board for alterado, os componentes Square serão re-renderizados automaticamente. Manter o state de todos os quadrados no componente Board nos permitirá determinar o vencedor no futuro.
+
+Em “termos React”, os Squares são agora **componentes controlados**
+ (**controlled components**
+). O Board terá controle total sobre eles.
+
+### Complexidade das features se tornam mais simples
+
+Imutabilidades faz a complexidade das features se tornarem bem mais simples de serem implementadas.
+
+### Determinar Quando Re-renderizar no React
+
+O principal benefício da imutabilidade é que ela ajuda a construir *componentes puros* em React. Dados imutáveis podem facilmente determinar se foram feitas mudanças, que ajudarão a decidir quando um componente precisa ser re-renderizado.
+
+> `npx kill-port 3000` Acaba com o processo que estava na porta 3000 do localhost
+> 
+
+# Por que Imutabilidade é Importante
+
+No exemplo de código anterior, sugerimos que você crie uma cópia do array `squares` usando o método `slice ()` em vez de modificar o array existente. Agora discutiremos a imutabilidade e por que a imutabilidade é importante aprender.
+
+Geralmente existem duas maneiras de se alterar dados. A primeira é *mutar* o dado alterando diretamente seu valor. A segunda maneira é substituir o dado antigo por uma nova cópia com as alterações desejadas.
+
+### Mudando dados com mutação
+
+`var player = {score: 1, name: 'Jeff'};
+player.score = 2;
+// Agora o player é {score: 2, name: 'Jeff'}`
+
+### Mudando dados sem mutação
+
+`var player = {score: 1, name: 'Jeff'};
+
+var newPlayer = Object.assign({}, player, {score: 2});
+// Agora o player não sofreu alteração, mas o newPlayer é {score: 2, name: 'Jeff'}
+
+// Ou então se você estiver usando a sintaxe "object spread", você pode escrever:
+// var newPlayer = {...player, score: 2};`
+
+O resultado final será o mesmo, mas por não mutar (ou alterar os dados subjacentes) diretamente, nós ganhamos vários benefícios descritos abaixo
+
+### Complexidade das features se tornam mais simples
+
+Imutabilidades faz a complexidade das features se tornarem bem mais simples de serem implementadas. Mais tarde neste tutorial, implementaremos uma feature de “máquina do tempo” que nos permitirá revisar o histórico do jogo da velha e “voltar” as jogadas anteriores. Essa funcionalidade não está ligada somente ao jogo — uma habilidade de desfazer e refazer certas ações é um requisito comum em aplicações. Evitar mutação nos permite manter o histórico das versões anteriores do jogo intacta e reutiliza-las mais tarde.
+
+### Detectar Mudanças
+
+Detectar mudanças e objetos mutados é difícil, pois, eles são modificados diretamente. Essa detecção requer um objeto mutado para ser comparado com as cópias das suas próprias versões anteriores e a árvore inteira do object para ser cruzada.
+
+Detectar mudanças em objetos imutáveis é consideravelmente fácil. Se ele for imutável que está sendo referenciado for diferente do anterior, concluímos que o objeto foi alterado.
+
+### Determinar Quando Re-renderizar no React
+
+O principal benefício da imutabilidade é que ela ajuda a construir *componentes puros* em React. Dados imutáveis podem facilmente determinar se foram feitas mudanças, que ajudarão a decidir quando um componente precisa ser re-renderizado.
+
+Você pode aprender mais sobre `shouldComponentUpdate` e como construir *componentes puros* lendo o artigo [Otimizando Performance](https://pt-br.reactjs.org/docs/optimizing-performance.html#examples).
+
+Em JavaScript, arrays possuem um [método `map()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map) que é normalmente utilizado para mapear uma fonte de dados para outra fonte de dados
+
+### Definindo uma Key (Chave)
+
+Quando renderizamos uma lista, o React armazena algumas informações sobre cada item da lista renderizada. Quando atualizamos uma lista, o React precisa determinar o que mudou. Nós poderiamos ter adicionado, removido, rearranjado ou atualizado os itens da lista.
+
+Imagine uma transição de
+
+`<li>Alexa: 7 tasks left</li><li>Ben: 5 tasks left</li>`
+
+para
+
+`<li>Ben: 9 tasks left</li><li>Claudia: 8 tasks left</li><li>Alexa: 5 tasks left</li>`
+
+Além das contagens atualizadas, um humano lendo isso provavelmente iria dizer que nós trocamos a ordem de Alexa e Ben e inserimos Claudia entre eles. No entanto, React é um programa de computador e não sabe qual foi nossa intenção. Pelo fato do React não ter como saber nossas intenções, precisamos especificar uma propriedade *key* (chave) para cada item da lista para diferenciá-los entre si. Uma opção poderia ser a utilização das strings `alexa`, `ben`, `claudia`. Se tivéssemos mostrando dados a partir de um banco de dados, os ids de Alexa, Ben e Claudia no banco poderiam ser utilizados como as chaves.
+
+`<li key={user.id}>{user.name}: {user.taskCount} tasks left</li>`
+
+Quando uma lista é re-renderizada, o React pega cada chave e busca nos itens da lista anterior por uma chave correspondente. Se a lista atual tiver uma chave que ainda não existia, React cria um componente. Se na lista atual tiver faltando uma chave que já existia na lista anterior, React destrói o componente anterior. Se as duas chaves combinarem, o componente correspondente é movido. As chaves informam ao React sobre a identidade de cada componente, o que permite que ele mantenha o estado entre re-renderizações. Se a chave de um componente mudar, o componente será destruído e recriado com um novo estado (state).
+
+`key` é uma propriedade especial e reservada do React (juntamente com `ref`, uma funcionalidade mais avançada). Quando um elemento é criado, React extrai a propriedade `key` e armazena como uma chave diretamente no elemento retornado. Ainda que pareça que `key` pertença a `props`, `key` não pode ser referenciado utilizando `this.props.keys`. React automaticamente utiliza `key` para decidir quais componentes atualizar. Um componente não pode acessar sua `key`.
+
+**É fortemente recomendado que você defina adequadamente suas chaves sempre que construir listas dinâmicas**. Se não tiver uma chave apropriada, você talvez deva considerar restruturar seus dados para tê-la.
+
+Se nenhuma chave for especificada, React vai mostrar um aviso e utilizar, por padrão, o índice do array como chave. Utilizar o índice do array como a chave é problemático quando se tenta reordenar os itens de uma lista ou inserir/remover itens. Passar `key={i}` explicitamente silencia o aviso, mas continua com os mesmos problemas dos índices do array e por isso não é recomendado na maioria dos casos.
+
+Chaves não precisam ser globalmente únicas; elas precisam ser únicas apenas entre os componentes e seus irmãos (siblings).
+
+### 
+
+### ReactDOM.render(
+
+Tem a função chamada render, onde é passado um parâmetro e executa um elemento

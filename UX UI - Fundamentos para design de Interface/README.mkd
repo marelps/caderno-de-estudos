@@ -1,0 +1,203 @@
+# UX/UI: Fundamentos para design de Interface
+<ul>
+    <li><a href="#introdução">Introdução</a></li>
+    <li><a href="#o-que-é-ux">O que é UX?</a></li>
+    <li><a href="#perguntas-sobre-o-projeto">Perguntas sobre o projeto</a></li>
+    <li><a href="#o-que-é-ui">O que é UI?</a></li>
+    <li><a href="#qual-a-diferença-entre-ux-e-ui">Qual a diferença entre UX e UI?</a></li>
+    <li><a href="#ferramentas-de-ux">Ferramentas de UX</a></li>
+    <li><a href="#conhecendo-o-seu-usuário">Conhecendo o seu usuário</a></li>
+    <li><a href="#como-conduzir-uma-boa-pesquisa">Como conduzir uma boa pesquisa?</a></li>
+    <li><a href="#personas-e-jobs-to-be-done">Personas e Jobs to be done</a></li>
+    <li><a href="#links-úteis-e-textos-complementares">Links úteis e textos complementares</a></li>
+</ul>
+
+## Introdução
+Canal de comunicação entre empresa e usuário final
+
+## O que é UX?
+- UX - User Experince
+- Pessoa > produto, serviço, aplicativo
+- Tudo que interfere na experiência de um usuário com o produto
+- Don Norman, responsável pela popularização do termo
+
+### Perguntas sobre o projeto
+- O que?
+- Quando?
+- Onde?
+- Porquê?
+- Como?
+- Quem vai usar?
+
+*“Sweet spot”* - Ponto de encontro
+
+## O que é UI?
+- UI - User Interface
+
+3 principais pontos:
+1. Utilidade
+2. Usabilidade
+3. Desejabilidade
+- Humano e máquina favoreça a execução das tarefas, seja agradável e crie uma conexão emocional com o produto
+
+## Qual a diferença entre UX e UI?
+Caminham juntos, mas são bem diferentes
+- **UX** > Ele projeta como será feita a interação do usuário
+- **UI** > Aplica o projeto para que o usuário tenha uma experiência agradável, fácil de manusear
+
+### Exemplificando:
+A UI da refeição vai ser a apresentação do prato, então como o prato está servido, como os alimentos estão ali, a comida parece apetitosa, é fácil de pegar comida com outros talheres, você consegue servir no seu prato. Já o UX vai depender de outros fatores, que é, por exemplo: Eu cheguei fácil no restaurante? 
+Como que está sendo a minha estadia nesse restaurante? Tem uma música ambiente? Eu fui bem tratado? O gosto do prato foi bom?
+ 
+#### Temas:
+- Pesquisa
+- Exploração
+- Criação
+- Análise
+
+Conversar com o usuário, entender sua necessidade e extrair algumas informações, quais são as dores, quais são os ganhos desse usuário
+- Como conduzir as pesquisas?
+- Como criar um mapa de empatia?
+- Qual a diferença entre personas e Jobs to be done?
+- Como ter comprometimento na entrega de trabalho
+- Quebrar tarefas, fazer pequenas tarefas por dia
+- Começar com as tarefas difíceis
+- Comece o seu dia já fazendo algumas tarefas que seja fáceis
+- Eleger um guardião que possa te ajudar e pegar no seu pé
+
+## Ferramentas de UX
+- Design
+- Prototipagem
+- Entregas
+- Monitoramento
+
+## Conhecendo o seu usuário
+<p align="center">   
+    <figure>
+        <img src="img.png" alt="Diagrama de Viabilidade, desejabilidade e capacidade">
+        <figcaption align="center">Diagrama de Viabilidade, desejabilidade e capacidade</figcaption>
+    </figure>
+</p>
+Na intersecção dessas três camadas é onde encontraremos produtos e/ou serviços que tem maior chances de sucesso
+
+Cada uma dessas camadas dizem respeito, respectivamente ao negócio, ao usuário e à tecnologia. Vamos entrar agora cada uma dessas camadas. A camada viabilidade diz respeito ao que é financeiramente viável e pode ser considerado dentro de modelo de negócio, sustentável. A camada de capacidade diz respeito mais à capacidade tecnológica de uma solução ser criada dentro de período determinado de tempo. A desejabilidade, que é a que mais interessa pra gente nesse curso, é a camada que concentra todas as necessidades do usuário.
+
+Devemos ver a camada de desejabilidade como as necessidades do usuário. Então tanto quanto dores que ele possui, ganhos que ele possa potencializar, ou até tarefas que possam ser automatizadas.
+
+## Como conduzir uma boa pesquisa?
+
+Muitas das habilidades que rendem boas entrevistas geram torno de como construir um bom roteiro de perguntas e como se comportar enquanto falando com o usuário. Falo isso porque, as perguntas que você deve formular têm que ser de uma forma a não enviesar a resposta do entrevistado; e o comportamento do entrevistador durante a entrevista garante com que a pessoa não fique desconfortável. Primeiro, para construir um roteiro de perguntas que sejam consideradas boas, você deve, primeiro, definir o quê você gostaria de responder com a sua pesquisa de usuário. Essas perguntas estabelecem o que gostaríamos de aprender ou o que gostaríamos de responder ao falar com os nossos usuários, são alguns objetivos. Só então, podemos criar um roteiro de perguntas que será utilizado numa entrevista, que por via de regra, tentamos evitar perguntar diretamente os assuntos que podem ser desconfortáveis ou fora de contexto.
+
+Você tende a evitar perguntar coisas que possam ser respondidas com sim ou não.
+
+O importante é que criar perguntas boas é a chave para você ter bons aprendizados
+
+Vale a pena dedicar tempo e verificar se o seu questionário evita o enviesamento, estimula o usuário a compartilhar histórias sobre si mesmo e atende os assuntos que você pretende aprender
+
+O primeiro passo é determinar com quem você quer conversar, então, onde você pode encontrar essas pessoas para você estabelecer diálogo. deve ter apenas pouco de cuidado quando o perfil da pessoa que você quer conversar é muito específico ou complicado de ser encontrado
+
+Uma forma de estruturar essa conversa é dividi-la três etapas: começando com uma apresentação e contextualização; depois aplicando o roteiro que você planejou; e no final, ter uma sessão de dúvidas e agradecimentos, para você agradecer o entrevistado.
+
+Aqui fica a dica, também, de você se comportar de uma maneira indicada, dependendo com quem você vai conversar. Pesquisas pouco mais formais, também é costumeiro incluir no início o contrato de confidencialidade. Nessa etapa, a dica é tentar ao máximo não completar o raciocínio da pessoa.
+
+Certificar de estar registrando essa conversa, gravando áudio no celular, colocar pontos interessantes na conversa, chamar alguém para ajudar conversando com o usuário e outra anotando pontos importantes da conversa
+
+## Personas e Jobs to be done
+
+### Personas
+
+Retrato do publico alvo que você está tentando projetar
+
+O objetivo principal da Persona é entender para quem você está projetando e criar uma empatia com a equipe toda, deve, designer para com essa pessoa.
+
+Primeiro, como sempre, você vai conversar com os seus usuários e tentar entender realmente quem são essas pessoas, quais as suas motivações, os comportamentos, perguntar várias coisas relacionadas à isso. Segundo. Tente identificar padrões. Faça uma matriz com nome e categoria para tentar identificar quem falou o quê, sobre o quê, ver o que está comum naquilo tudo. Terceiro. Crie uma Persona a partir do que você identificou de padrões. Uma dica é tentar realmente pensar se é relevante escrever aquela frase que você está pensando sobre o comportamento ou não para não ficar uma Persona cheia de detalhes irrelevantes no final. Quarto. Sempre deixe sua Persona atuallizada, porque geralmente, principalmente quando você está trabalhando com startup, o seu produto muda muito rápido questão de semanas e o seu público também vai mudar. Então sempre tenta manter contato com os usuários para ver se realmente eles continuam sendo usuários, ou se o novo público está usando esse produto.
+
+quando você precisa criar empatia no time, ou quando você precisa criar o Wood no seu aplicativo, ou do seu site. E quando eu não uso isso? As principais críticas da Persona falam que o fato de, por exemplo, eu ter 20 anos e morar São Paulo não me fazem comprar determinado produto, ou usar algum site, por exemplo, o Facebook. Na verdade, o objetivo do usuário é que determina a compra.
+
+### Jobs to be done
+
+A ideia principal do Jobs to be done é que as pessoas contratam produtos para tentar resolver algum problema deles.
+
+### Quando usar?
+
+você vai entrevistar usuários e conversar com eles, principalmente qual que foi o contexto da compra, qual foi o objetivo, onde eles estavam, com quem que eles estavam, e querer acompanhar esta situação. Segundo, crie frases seguindo o seguinte formato: 'Quando, coloca o contexto, eu quero, coloca a motivação, para que eu possa, coloca a proposta de valor do seu produto'. Vou dar exemplo. 'Quando eu estou uma festa, eu quero postar uma foto, para que eu possa rever depois.'. Isso é exemplo de job que uma pessoa pode querer fazer no seu produto. Compare as frases de todos os usuários para você tentar encontrar padrões.
+
+No caso das Personas nós estamos tentando mapear quem é essa pessoa que vai usar o nosso produto. E no Jobs to be done a gente está tentando entender o que que essa pessoa quer fazer.
+
+As Personas é uma metodologia que é conhecida há muito tempo. Já os Jobs to be done está ganhando relevância nos últimos anos e algumas pessoas até defendem parar de usar Personas e só usar Jobs to be done.
+
+
+# Links úteis e textos Complementares
+<ul>
+    <li><a href="#ux">UX</a></li>
+    <li><a href="#referências-de-sites">Referências de Sites</a></li>
+    <li><a href="#básico-para-começar">Básico para começar</a></li>
+    <li><a href="#ferramentas-de-design">Ferramentas de Design</a></li>
+    <li><a href="#ferramentas-de-protótipo">Ferramentas de Protótipo</a></li>
+    <li> <a href="#ferramentas-de-entregas">Ferramentas de Entregas</a></li>
+    <li><a href="#ferramentas-de-monitoramento">Ferramentas de Monitoramento</a></li>
+</ul>
+
+***
+### UX
+- [UX Project Checklist](https://uxchecklist.github.io/)
+- [The Elements of User Experience: User-Centered Design for the Web and Beyond - Livro](https://goo.gl/RRQyrs)
+- [UX não é um título, é um estilo de vida! - Texto](https://goo.gl/UaAB1a)
+- [User Experience Careers - Livro](https://goo.gl/29gywz)
+- [Por onde começar na área de UX? - Texto](https://goo.gl/dEUR2o)
+
+### Referências de Sites
+- [Nielsen Norma Group](https://www.nngroup.com/)
+- [Baymard Institute](https://baymard.com/)
+- [UX Design CC](https://goo.gl/9LiLUK)
+- [UX movement](http://uxmovement.com/)
+- [UX Planet](https://uxplanet.org/)
+- [UX.Blog](https://uxdesign.blog.br/)
+- [User interface enineering](https://www.uie.com/)
+
+### Básico para começar
+- [Novos fundamentos do Design - Livro](https://goo.gl/Z8uTN1)
+- [Curso de Design Gráfico. Princípios e Práticas - Livro](https://goo.gl/ef6MZj)
+- [Exploring the "Planning Fallacy": Why People Underestimate Their Task Completion Times - Texto](https://goo.gl/nTv9ZY)
+- [Creativity in Groups - Research on Managing Groups and Teams - Livro](https://goo.gl/DfYg1G)
+- [UXtools - Site](https://uxtools.co/tools/design)
+
+### Ferramentas de Design:
+- [Sketch](https://www.sketchapp.com/)
+- [Figma](https://www.figma.com/)
+- [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
+- [Adobe Illustrator](https://www.adobe.com/br/products/illustrator.html?promoid=PGRQQLFS&mv=other)
+- [Adobe XD](https://www.adobe.com/br/products/xd.html?promoid=PYPVQ3HN&mv=other)
+- [Affinity Designer](https://affinity.serif.com/pt-br/)
+- [Framer](https://framer.com/)
+- [Gravit Designer](https://www.designer.io/)
+- [Axure](https://www.axure.com/)
+
+### Ferramentas de Protótipo:
+- [Principle](http://principleformac.com/)
+- [Adobe XD](https://www.adobe.com/br/products/xd.html?promoid=PYPVQ3HN&mv=other)
+- [Proto.io](proto.io)
+- [Flinto](https://www.flinto.com/)
+- [Framer](https://framer.com/)
+- [Marvel](https://marvelapp.com/)
+- [Figma](https://www.figma.com/)
+- [InVision](https://www.invisionapp.com/)
+- [Axure](https://www.axure.com/)
+
+### Ferramentas de Entregas:
+- [Zeplin](https://zeplin.io/)
+- [Specctr](https://specctr.com/cloud/home)
+- [Simply](https://sympli.io/)
+- [UXpin](https://www.uxpin.com/)
+- [InVision](https://www.invisionapp.com/)
+- [Avocode](https://avocode.com/)
+- [Marvel](https://marvelapp.com/)
+- [Figma](https://www.figma.com/)
+
+### Ferramentas de Monitoramento:
+- [Smartlook](https://www.smartlook.com/pt/)
+- [Hotjar](https://www.hotjar.com/)
+- [Jaco](http://www.getjaco.com/)
+- [Fullstory](https://www.fullstory.com/)
+
+

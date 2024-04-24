@@ -1,0 +1,43 @@
+## Regras para se criar uma variável
+
+- Não pode começar com número
+- Não pode ter caracteres especiais
+- Não pode utilizar acentos
+- Não pode utilizar espaços
+- Deve começar com letra minúscula e seguir o padrão camelCase, onde cada palavra é iniciada com maiúsculas e unidas sem espaços.
+
+Em Javascript, o sinal _";"_ é opcional, mas é importante que você utilize para o computador conseguir entender onde termina o comando.
+
+### String
+Os dados do tipo String são conhecidos como cadeia de caracteres e nos permitem representar qualquer combinação de letras, números e/ou símbolos. Para definir uma string, é necessário que o texto em questão esteja entre aspas:
+
+```
+"Juan"
+"Meu nome é Juan."
+"125 + 125 = 250!"
+```
+
+Para gerar uma String, posso simplesmente atribuir o texto a uma variável;
+
+As variáveis além de armazenar informações, e como seu nome diz, podem variar o valor que armazenam.
+
+Como você deve ter notado, chamando a variável e fazendo uma reatribuição a um valor eu posso mudar seu conteúdo.
+
+### Boolean
+É conhecido como booleano e permite representar dois valores lógicos, são eles:
+
+- true
+    - Representa o valor de algo ser verdadeiro
+- false
+    -  Representa o valor de algo sendo falso
+
+O poder real dos booleanos é que eles podem surgir ao fazer comparações de valores diferentes com alguns operadores matemáticos.
+
+```
+vencedor = "Pelé";
+vencedor = "Marta";
+
+console.log (vencedor);
+
+    //  resultado seria: "Marta"
+```

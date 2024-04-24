@@ -1,0 +1,26 @@
+A extensão .md signifca markdown que é uma linguagem de marcação utilizada para converter o texto em um HTML válido
+
+No GitHub, o arquivo [Readme.md](http://Readme.md) serve para dar mais informações sobre aquele repositório, readme seria algo como “leia-me” em português, via ser a forma mais fácil de ler e entender sobre o que é repositório.
+
+### Como fazer um readme de qualidade
+
+Na nossa opinião o mínimo que um arquivo readme precisa ter é:
+
+- Titulo ou logo do projeto
+    - É possível colocar imagens no readme. Colocar uma imagem do logo do projeto vai dar um cara mais profissional para o seu readme
+- Breve descrição do que é o projeto e pra que ele serve
+    - Aqui você vai escrever sobre o que é o projeto e talvez as motivações que te levaram a criar esse projeto. Não importa se é um proojeto de estudo, uma descrição sempre vai ser interessante
+    - Na descrição também é legal colocar imagens ou gifs do projeto em funcionamento
+- Principais desafios encontrados ao fazer o projeto
+    - Sempre vamos nos deparar com desafios que precisamos atravessar, isso acontece em projetos de estudos, pessoais ou profissionais, falar sobre esses desafios e como fez para resolvê-los é uma ótima forma de demosntrar como você pensa e age nessas situações
+- Lista das principais tecnologias usadas no projeto
+    - Quais tecnologias foram usadas na criação do projeto
+    - EX: HTML, CSS, JS, Reac.
+    - É possível colocar ícone das tecnologias, ou fazer em forma de lista
+- Como acessar o projeto
+    - Aqui você vai escrever o passo a passo de como um recrutador ou qualquer pessoa que queira baixar e ver seu projeto teria que seguir para atingir esse objetivo
+    - Ou se o projeto estiver hospedado em algum lugar você pode colocar o link que leva para ele aqui
+- Vantagens de se usar o readme
+    - Fazendo um readme bem feito vai demonstrar pro recrutador que você é organizado(a) e pensa no documentação do seu projeto
+    - Também que se preocupa em mostrar claramente para outras pessoas como baixar e rodar o seu projeto
+    - Para quem está procurando emprego essa é uma ótima forma de impressionar os recrutadores deixando seus repositórios mais atrativos e mostrando também suas soft skils

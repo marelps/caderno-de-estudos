@@ -1,0 +1,244 @@
+# Fundamentos do Design
+## O que é Design
+A maioria das pessoas acreditam que o design tem a função somente de deixar as coisas bonitas, como se fosse algo decorativo, no entanto, o design vai muito mais além disso.
+O design é considerado uma arte, mas também vem da ciência. A estética e o belo, no design, não deve ser considerado mais importante que a função. Tudo o que criamos e tudo o que fazemos, deve ser resposta a uma necessidade, uma solução para um problema específico. Resolver problemas.
+"O design é função e não forma" - Steve Jobs
+
+Antes de satisfazer nossa ansiedade em fazer o mais bonito, precisamos nos satisfazer em fazer o mais funcional. O design por muitas vezes pode ser um processo de construção frio e calculado, as vezes abrindo mão muitas das vezes do bonito.
+
+"Design é o plano para organizar os elementos da melhor maneira possível, para atingir um propósito específico." - Charles Eames
+
+Palavras chaves: organizar(analisar, reconhecer o problema), propósito (funcionalidade daquilo que está sendo criado)
+
+## Definição do Design
+Design na perspectiva visual é muito comum ser confundida com desenho, apesar de defendido por alguns autores, não é a palavra mais adequada pra tal situação, porém por conta disso, é dai que surgiu o 'Desenho Industrial' era dessa maneira que era conhecido a carreira de design de maneira acadêmica (principalmente design de produto) a partir da década de 50, hoje em dia é muito raro utilizar esse nome nas universidades.
+
+A raiz vem do latim = significando 'projeto', 'projetar'. Alguns autores defendem que esse termo deve ser intepretado como um verbo, então no sentido mais pragmático seria 'projetar'.
+
+"Design Gráfico não é só um belo desenho. Design Gráfico é um belo desenho com um sentido e uma tarefa a cumprir." - Chico Homem de Melo
+
+## Subdivisões e Especificidades do Design
+O design é um campo de estudo muito amplo e as diversas subdivisões do design acabam se relacionando.
+
+![Subdivisões e Especificidades do design](image.png)
+
+Há uma interseção bem forte entre a arquitetura e design e isso é muito natural já que a carreira de design eram fortemente preenchidas por pessoas que estudaram arquitetura. Ou seja, boa parte dos design que conhecemos hoje, vieram da arquitetura.
+
+Dentro do grande circulo de design temos dois circulos grandes que é o Design Gráfico e o Design de Produtos. Naturalmente, esses grandes grupos se complementam e um avança sobre o outro tendo ali uma área de atuação comum, por exemplo, o Design de Embalagem e o Design de Superfície.
+
+Design de Superfície: É aquele que cria estampas, padrões para papel de paredes, tecidos, papelaria. 
+
+## História do Design Gráfico
+Desde sempre o ser humano deseja se comunicar, o homem sempre se dedicou a formas de se comunicar. Então, quando falamos da história do design, na verdade estamos falando sobre parte da história do próprio homem, a evolução da alfabetização visual, ou seja, o desenvolvimento das nossas capacidades perceptivas visuais. Tudo isso surge nas primeiras formas de escrita humana que se chamavam petróglifos, nada mais é que figuras que era esculpidas ou pintadas em rochas, geralmente representando animais ou o dia-a-dia. 
+
+Por volta dos anos 3000 A.C., os sumérios se estabeleciam na mesopotânea e foi ali que se inicia a escrita humana. É considerado ai a primeira civilização que utiliza da escrita, ao menos que temos registrado. Os egípios também tinha sua forma de escrita que eram os hieróglifos, eles tambem trouxeram grande evolução na utilização do papiro, com ele, utilizava-se a combinação de palavras e imagens para produzir manuscritos ilustrados, a evolução deles vem o alfabato.
+
+O alfabeto, varia de cada região, como o latino. Além do papiro, também temos os pergaminhos que eram feitos de pele de animal e permitiu o avanço da caligrafia e os estilos dele letras começaram a se desenvolver, criando mais pra frente a tipografia.
+
+Ainda por volta do segundo século da era cristã, a impressão xilogravura se tornou popular na Ásia, que consiste em desenhos esculpidos em madeira e depois eram impressos em algum tipo de papel, parecido como um carimbo. A xilogravura foi muito utilizada e ainda é muito utilizada principalmente no nordeste brasileiro nas obras de Literatura de cordel. A primeira obra que temos registros na xilogravura é o Sultra do diamante, uma obra com ilustrações e escritas trazendo orações do Buda. Foi encontrada em cavernas do turquistão e impresso na China por volta do ano 868. 
+
+Por volta de 1400 a xilogravura é introduzida na Europa e lá ela se torna muito utilizada na impressão de cartas de baralho, a prensa dos tipos móveis de Gutenberg revolucionou a comunicação e a própria escrita por volta de 1950 inspirado na mecanica das prensas de uvas usadas na fabricação de vinho. A habilidade que Gutenberg desenvolveu como ourives na manipulação do metal, do ouro, permitiu que ele contruisse as matrizes tipograficas. Dizem que umas das primeiras obras feitas por ele, teria sido a biblia, que até então eram feitas á mão e de certa forma, Gutenberg conseguiu fazer com que a produção da bíblia fosse feita em certa escala, que até antes era algo impossível feito a mão. Tal ato, causava tanto espanto em lideres religiosos por suas cópias serem muito similares que ele foi acusado por bruxaria e quase teve sua vida tirada por conta disso, a saída foi ter que revelar sua técnica de impressão. Esse período foi conhecido como renascimento foi o momento de grande profusão artística em todos os seguimentos das artes plasticas de modo geral. Foi nesse contexto que grandes obras foram criadas, como por exemplo o Prícipe de maquiavel, Romeu e Julieta, monalisa e a ultima ceia. Alguns tipos de letras que foram criadas nessa época, ainda é utilizada até hoje.
+
+Apesar de tudo, foi na revolução industrial que a comunicação visual foi amplamente 'disponível' devido a novas tecnologias, como quando Friederich Koenig havia projeto sua primeira maquina de impressão a vapor que permitia a criação de cópias em alta velocidade de forma muito maior do que as que Gutenberg fazia. 
+
+Por volta dessa época que dois artistas muito conhecidos: Walter Crane e Randolph Caldecott desenvolveram livros totalmente ilustrados destinado as crianças, os desenhos eram feitos a mão mas algumas dessas obras desses artistas foram reproduzidas por Edmund Evans que é o gráfico que foi conhecido por conseguir imprimir as primeiras ilustrações em cores. Esses livros ainda são de muita inspiração para muitos artistas e de ponto de vista técnico significa um grande avanço nos processos gráficos. Nesssa época começaram a surgir revistas e outros periódicos com o objetivo de informar a comunidade, nessa época a fotografia já era utilizada porém de forma muito precária. Em 1888, George Eastman criou a Kodak Camera, uma camera portátil que permitia que o publico documentasse suas próprias vidas e em Lodres se formava suas próprias sociecades que se chamariam guildas, formadas por artistas e designers.
+A segunda metade do século 19 marcou uma mudança estética profunda nas artes, a inspiração nas artes da antiguidade vigorava desde o século 15 e as formulas baseadas no renascimento começaram a se disipar, dando lugar a arte nouveau. No início do século 20 os artistas buscavam novas maneiras de se expressar, o design de produto, livros, cartazes, a própria arquitetura, design de logotipos e tipografias explodiam com a segunda revolução industrial. De modo que esses, movimentos artísticos alteraram o papel da arte e do design na sociedade.
+
+As duas grandes guerras foram marcos que de alguma forma aceleraram os avanços tecnológicos e consequentemente aceleraram os processos comunicacionais.
+
+A revolução digital que também ficou conhecida com a terceira revolução industrial transformou ainda mais a comunicação visual. A tecnologia digital e o surgimento de softwares de edição no final da década de 80, início de 90 expandiu ainda mais as possibilidades de criação e hoje já não há mais barreiras pra criatividade.
+
+## A Influência da Xilogravura
+Artesão produzindo uma matriz xilográfica. Matriz nada mais é que uma base de madeira entalhada criando um alto relevo.<br>
+![Ilustração](image-1.png)
+
+Processo de entalhamento com algumas ferramentas mais atuais.<br>
+![Processo de entalhamento](image-2.png)
+
+Etapa de impressão.<br>
+![Etapa da impressão](image-3.png)
+
+Resultado.<br>
+![Cordel](image-4.png)
+
+Esse tipo de processo foi trazido pela família real e é muito utilizado até hoje no nordeste brasileiro através do Cordel.
+
+## Os tipos Móveis
+Gutenberg era um religioso e grande inventor, pai da imprenssa. Foi ele responsável pelo grande passo das próximas invenções das tecnologias que auxiliaria na comunicação no futuro, tudo veio do resultado da invenção de Gutenberg.
+
+Réplica da invenção de Gutenberg, um tipo de prenssa dos tipos móveis.<br>
+![Alt text](image-5.png)
+
+Ainda era um processo muito trabalhoso, porém conseguia sim automatizar os trabalhos<br>
+![Alt text](image-6.png)
+
+A máquina se assemelha a prensa de uva. As máquinas gráficas que temos hoje como a flexografia e rotogravura em grande medida foram herança da prensa dos tipos móveis de Gutenberg.<br>
+![Alt text](image-7.png)
+
+Algumas das cópias de Gutenberg criou, estima-se que ele criou cerca de 180 cópias, o que na época era muito impressionante tanto a quantidade como a fidelidade entre as cópias.<br>
+![Alt text](image-8.png)
+
+## A Arte da Guerra
+Como a arte é utilizada para expressar ideias e vender ideologias? <br>
+![Alt text](image-9.png)
+
+Esse exemplo é um cartaz que buscava recrutar jovens para a primeira guerra mundial. Um exemplo de como a arte foi difundida tanto na primeira quanto na segunda guerra mundial.
+Precisamos entender o papel da arte, entender como as mídias e processos gráficos foram utilizados para vender uma ideia, uma ideologia.
+Todo sistema de poder utiliza a mídia e alguma medida como ferramenta para comunicação.
+
+Ferramentas utilizadas para divulgar, vender, seja para recrutar, manifestar suas ideias e exercer algum tipo de influência na sociedade. <br>
+![Alt text](image-10.png)
+
+Nos Estados Unidos em específico, ainda é possível ver como herança dessa história essa ideia forte de patriotismo mesmo nos dias de hoje.<br>
+![Alt text](image-11.png)
+
+É certo entender que a mídia tem sua uma grande importância socialmente, seja para imprimir a ideia que quer vender, tanto para comunicar, informar de forma geral. Algumas opiniões mais radicais, dirá que a mídia tem o poder além de ser um tipo de manifestação artistica, mas também com uma ferramenta, um objeto de manipulação.
+
+Reprodução dos cartazes feita de maneira manual.<br>
+![Alt text](image-12.png)
+
+Como a mídia pode pode expressar um tipo de ideologia que ela pretende mostrar <br>
+![Alt text](image-13.png)
+
+Tudo o que você constrói e cria, vai ser carregado por aquilo que você precisa acredita. 
+
+## A Revolução Industrial e o Design
+Alguns autores afirmam que o Design teria surgido na Inglaterra, no século XVIII (esse negócio de algarismo romano é tão clichê chique, mas pra você se localizar melhor no calendário, era por volta de 1750), exatamente durante a primeira fase da Revolução Industrial, como consequência do desenvolvimento de máquinas e equipamentos que "substituíram" (note as aspas) a força física de homens e animais. O design foi então essa ferramenta que otimizou os processos de produção, permitindo produzir mais e mais, abrindo a era da produção em escala e colocando muito MUITO dinheiro no bolso dos donos das fábricas, obviamente. 
+
+Existem muitas críticas sociais sobre o modelo industrial que surgia naquele momento. Não dá pra fingir que tudo foi lindo, não foi. Rolou muita coisa tensa por lá: o acúmulo de riquezas, o poder da burguesia sobre o proletariado, a exploração da mão de obra… vish! Qualquer semelhança com nossos dias é pura coincidência.
+
+Bom, mas apesar de tudo, durante aquele período, vimos grande avanço tecnológico. Vimos uma explosão da arquitetura na Europa, com os estilos neoclássico e nouveau, que se espalhou por todo o mundo, inclusive no Brasil. Além disso, as novas máquinas de impressão permitiram também grande avanço da indústria gráfica e foi isso (a facilidade de impressão) que permitiu que outros designers gráficos fossem reconhecidos por seu trabalho, principalmente em jornais e revistas. Vale lembrar que foi nesse período que as tipografias começaram a surgir e muitas delas são utilizadas ainda hoje, como é o caso da Caslon. <br>
+![Alt text](image-14.png)
+Foi também nesse período que os produtos passaram a ter embalagens com letras e ilustrações coloridas.
+
+Não posso deixar de citar a grande "Exposição Universal" de Londres, evento que foi um marco histórico do design já que foi a primeira vez que artistas, arquitetos e designers se reuniram para expor seus trabalhos.
+
+## Bauhaus
+Design é ou não é arte?
+Escola de Frankfurt - Escola que surge num momento de grande profusão tecnológica e artistica, no momento de grandes mudanças sociais por volta das primeiras décadas do século 20, consequencia das grandes mudanças sociais da primeira revolução industrial e da primeira guerra mundial.
+
+Nomes como Adorno, Horkheimer, Habermas
+
+Walter Benjamin - Crítico literário, sociólogo e embora algumas pessoas não o considere, ele também foi filósofo. Ele teve uma vida cheio de dilemas, filho de burgueses porém tinha muitos pensamentos aproximado ao comunismo e com pensamento marxista. Sua obra mais importante foi "A obra de arte na era de sua reprodutibilidade técnica", onde ele trás diversas reflexões sobre a arte, sobre esse contato dos artesões com as novas tecnologias. Ele fala que a arte tem uma aura de arte, essa aura de arte que ele fala é não ser banal, ser único, que parece entrar em choque com a idade de reprodução em escala que era exatamente o que aquele momento pregava. Benjamin não foi muito conclusivo no seu pensamento, as vezes até conflitório. Sua critica gira na arte literararia e na arte de cinema. 
+
+É mais ou menos nesse mesmo período, que surge a escola de artes Bauhaus, iniciada na Alemanha por volta de 1919, se tornou a instituição mais influente no campo das artes e foi uma das percursoras do modernismo e deu inicio ao movimento que ficou conhecido pelo seu próprio nome "Bauhaus". Marcou um período importante da história da arte quando os artistas começaram a perceber que as máquinas que estavam surgindo naquela não era a unica culpada pela queda da qualidade dos produtos, juntos os membros do grupo começaram a estabelecer então uma nova relação entre o artesão e a industria, entre o artista e a produção em escala. Era um momento de renovação cultural e a Bauhaus estimulava os seus alunos a aprender sobre a arte no sentido formal, no sentido das técnicas, dos estilos, das teorias, mas também no executar, de colocar a mão na massa mesmo. A escola pretendia difundir uma postura nova sobre o consumo da arte e sobre filosofia moderna do design nas mais diversas áreas sendo presando o máximo de conceito de funcionalidade, e dai surge "A forma segue a função" - Louis Sullivan.
+Daqui surge a base de todo o design moderno até os nossos dias atuais, influenciando todos os design do mundo.
+
+Uma das grandes inovações de Bauhaus foi aceitar a máquina como um instrumento digno do artista. Eles entenderam que a máquina, tudo aquilo que eles estavam vivendo, na verdade, era parte de um grande processo de transformação que o artista iria precisar se adequar aquele novo cenário. 
+
+[Vídeo de complemento](https://www.youtube.com/watch?v=ERrzzMFAeNY&t=64s&ab_channel=PauloBiacchi)
+
+## Resumo
+[Timeline - História do Design](Timeline - História do design.pdf)
+
+## Semiótica
+A semiótica é o estudo dos signos e seus significados na sociedade. Um signo é qualquer coisa que pode transmitir significado, ou seja, em outras palavras um signo é algo que pode representar outra coisa. Sons, palavras, fotografias, podem ser signos. Até mesmo, o jeito que você se veste, as coisas que utilizam, lugares que frequenta pode ser signos, na medida que eles transmite algum significado.
+A semiótica é um assunto que merece atenção e destaque principalmente em relação a mídia. Esse assunto é aquilo que vai nos fornecer uma ideia clara do que deve ser o nosso foco, tudo aquilo que devemos observar ou não observar ao analizar o significado das mensagens na mídia. Talvez a questão mais importante no conteúdo da mídia de modo especial, o design, é como essas mensagens, esses signos vão ser recebidos pelo publico. Vendo do ponto de vista do consumidor da informação há indicios de que ele tem a capacidade de passar pelo crivo da intepretação, da crítica, para atribuir significado a aquilo que estamos apresentando a ele.
+
+Agora por outra perspectiva, no design, devemos nos atentar aquilo que estamos criando no sentido que a informação que queremos transmitir deve acomapanhar de alguma forma, aquilo que o receptor deve interpretar aquilo que nós apresentamos a ele. Aquilo que entregamos como design é um conjunto estruturado de signos que por mais que faça sentido na cabeça do design, poderá ter inúmeros significado na cabeça da audiência, público. O design pode ser dono daquele que cria, mas nunca será daquilo que interpretam. 
+
+Ferdinand Saussure - Importante linguista e semiótico suíço. Foi quem lançou as bases e o estruturalismo da linguistica moderna. Pelas tantas teorias que ele propos no campo da semiótica, ele é considerado o pai da semiologia. Obra para pesquisar mais a respeito "Curso de Linguistica geral"
+
+O sol, a lua, as cores, qualquer coisa que pode atribuir sentido ao signo consiste em significante e significado.
+Significante é a própria palavra ou o som, ou a imagem.
+Significado é o conceito que o significante se refere.
+
+Por exemplo, se você escrever a palavra carteira, a própria palavra carteira é o significante, já o significado é o profissional que entrega correposdências. Quando o significante e o significado são combinados, nós temos o signo.
+
+Segundo Saussure, essa relação é arbitrária, ou seja, não há uma razão lógica, óbvia para chamarmos de carteira, a cadeira escolar, a profissional e o acessório em que guardamos o dinheiro.
+
+![Exemplo de Saussure](image-15.png)
+
+Mas o fato daquilo ser arbitrário, não significa que você pode simplesmente mudar o nome daquilo quando bem entender, afinal, se você como criador muda o nome, outras pessoas podem não entender, porque pode ser algo já de senso comum e entendido por todos naquele sentido.
+Saussure diz que o signo é a unidade básica da linguagem, ou ainda, nós podemos dizer que a linguagem é essencialmente um sistema de signos.
+
+A semiótica e a semiologia concentra sua atenção em como as pessoas geram significados através do uso da linguagem ou até mesmo por meio do comportamento, como linguagem corporal, roupas, expresões faciais. Todo mundo tenta dar sentido ao comportamento humano, a nossas vidas, nos filmes, livros, programas de televisão. Nós somos verdadeiros geradores de significado, interpretes de significado.
+
+A semiótica nos ajuda a interpretar melhor de maneira mais refinada essas mensagens que recebemos e também podemos envia-las a partir dela. Em particular, ela nos fornecem métodos para analisar os textos, as imagens, tudo através da cultura e a cultura por meio do texto.
+
+------------------------
+
+Signo: Semiótica é o estudo dos signos, que consistem em todos os elementos que representam algum significado e sentido para o ser humano, abrangendo as linguagens verbais e não-verbais. Consegue entender como compreender isso é importante para o designer?
+
+![Signo](image-16.png)
+
+## Elementos da comunicação
+
+A comunicação, de modo geral, é um campo de estudo extremamente amplo, mas aqui nós vamos tentar aplicar tudo ao contexto do design, afinal de contas o design também é uma ferramenta de comunicação.
+Tradicionalmente, na academia, nós analisamos a comunicação a partir dos seus elementos. São esses elementos que vão indicar pra gente a qualidade da transmissão da mensagem.
+
+Os elementos da comunicação são:
+
+Emissor
+Receptor
+Mensagem
+Canal
+Código
+Contexto ou Referente
+Feedback
+
+Esses elementos são os componentes que participam do processo de transmissão de mensagens. Sem eles qualquer tipo de comunicação (como esse texto que você está lendo, por exemplo) não seria possível.
+
+Todo tipo de comunicação inicia-se com um emissor, isto é, aquele que envia uma mensagem para alguém, O receptor é essa pessoa que vai receber a mensagem. Porém, a existência desses dois elementos não basta. Para que a comunicação aconteça de fato, outros elementos precisam ser acionados.
+
+Para que essa mensagem seja enviada, é preciso que exista um canal de comunicação, isto é, um suporte que realiza a transmissão. Um panfleto, uma página de internet, uma rede social, um jornal impresso, a tv... tudo pode ser canal. Para fazer sentido, a mensagem sempre faz referência a um contexto ou situação da realidade. Esse contexto pode modificar o sentido da mensagem.
+
+Além disso, emissor e receptor só se entendem se partilharem de um código comum, um idioma, por exemplo. Vale lembrar que também utilizamos de linguagem não verbal e, no nosso caso em especial, utilizaremos signos visuais, imagens e cores.
+
+Por último, o feedback é a resposta emitida por quem recebe a mensagem, confirmando que o processo de comunicação de fato ocorreu.
+
+Porém, claro, nem sempre a comunicação acontece de forma perfeita. Há ruídos no processo, como falhas técnicas no canal ou diferenças culturais. Os ruídos podem acontecer em qualquer etapa da comunicação, limitando sua eficiência. A tinta que falhou na hora da impressão da revista, é um exemplo de ruído. A conexão ruim de internet, o barulho numa sala de aula, o exagero nos efeitos visuais... tudo isso pode ser ruído na troca de informações.
+
+![Esquema da comunicação](image-17.png)
+
+## Semiótica aplicada no Design
+
+[Link no YouTube](https://www.youtube.com/watch?v=yq7j-s8llIw&ab_channel=PedroPanetto)
+
+A semiótica é o estudo de como funcionam os signos. No campo da semiótica, os signos é qualquer coisa que você percebe, um som, um cheiro, forma, temperatura.
+Existem três tipos de signos:
+- Ícone
+- Índice
+- Símbolo
+
+Vale lembrar as três funções básicas do design
+- Função estética
+- Função prática
+- Função simbólica
+
+A semiótica está exatamente na função simbólica do simbolismo.
+
+O ícone tem uma conexão evidente entre imagem e ideia, por exemplo o rosto de um galo.
+O índice é uma manifestação que indica alguma coisa, por exemplo uma folha, semente indicaria uma árvore, a fumaça indica fogo.
+
+![Ícone e índice](image-18.png)
+
+O símbolo é uma coisa abstrata, a sua forma não tem qualquer semelhança com o seu significado.
+* O alfabeto é um conjunto de símbolos
+
+![Galo](image-19.png)
+
+Como usar a semiótica?
+Quando for criar algo, experimente utilizar essas categorias.
+
+[Exemplo de semiótica](https://www.behance.net/gallery/17568685/Caribonis-Armory-Branding)
+
+## Projeto gráfico e Composição
+### Conceitos Básicos da Composição Visual
+#### O Projeto
+Projeto nada mais é do que montar um plano para resolver um problema, encontrar uma solução.
+
+O Design deve observar o problema, organizar suas características e possibilidades e desenvolver uma solução.
+Etapas:
+- Observar o problema
+- Organizar características
+    - Características do problema, do produto, do público.
+- Desenvolver Solução
+
+#### Benefícios de um bom projeto gráfico
+- Qualidade estética e funcional
+    Agregando valor ao produto, levando a uma maior lucratividade para o cliente;
+- Benefícios para os usuários
+    Produtos de maior qualidade;
+- Maior rentabilidade para o cliente
+    N

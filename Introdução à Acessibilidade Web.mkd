@@ -1,0 +1,44 @@
+**Acessibilidade**
+
+É muito comum criarmos aplicações bonitas e muito pobres em acessibilidade.
+
+ariakit - Biblioteca desenvolvida para aplicarmos a acessibilidade de uma maneira muito fácil no react (desenvolvido por um brasileiro)
+
+headless ui - desenvolvido pelo tailwind, consegue ter comportamentos padrões que normalmente temos que precisam de acessibilidade que eles trazem os componentes em um modelo pronto e muito mais acessível
+
+radix
+
+Com essas ferramentas nós conseguimos ter componentes que tragam o funcionamento e tragam a acessibilidade para comportamentos que temos normalmente na web como o pop over, trazendo de uma forma não estilizada, primitiva. 
+
+Quando usar cada um desses componentes? Vem muito de preferência. 
+
+### Acessibilidade na web
+
+Significa que pessoas com deficiência podem usar a web. Mais especificamente, que pessoas com deficiêencia podem perceber, entender, navegar, interagir e contribuir para a web. E mais, ela também beneficia outras pessoas, incluindo pessoas idosas com capacidades e mudança devido a oenvelhecimento.
+
+Design Universal
+
+É o fundamento teórico mais relevante quando tratamos de acessibilidade. Esse fundamento é o desenvolvimento de produtos e ambientes para serem usáveis por todas as pessoas, na maior extenção pssível, sem a necessidade de adaptação ou design especilizado.
+
+Possuindo sete princípios:
+
+- Equiparação nas possibilidades de uso: pode ser utilizado por qualquer usuário em docndições quivalentes.
+- Uso simples e intuitivo: fácil de compreender, indepnedente da experiência do usuário, de seus conhecimentos, aptidões linguísticas ou nível dee concentração.
+- Informação perceptível: Fornece de forma eficaz a infromação necessária, quaisquer que sejam as condições ambientais/físicas exxistentes ou as capacidades sensoriais do usuário.
+- Tolerância ao erro: minimiza riscos e consequências negativas decorrentes de ações acidentais ou involuntárias.
+- Mínimo esforço físico: pode ser utilizado de forma eficiente confortável, com um mínimo de fadiga
+- Dimensão e espaço para uso e interação: espaço e dimensão adequados para interação, o manusei e a utilização, independenmente da estatura, da mobilidade ou da postua do usuário.
+
+Dica: Para garantir que sua aplicação está seguindo o caminho de uma boa aplicação acessível, você pode acessar ir na aba de prorpiedades de acessibilidade por meio da inspeção da sua página, direto do seu navegador. É possível simular e checar erros de aacessibilidade no painel.
+
+WAI - ARIA
+
+Para melhorar a acessibilidade de uma aplicação é possível utilizar **WAI-ARIA**
+ *Web Accessibility Initiative - Accessible Rich Internet Applications*
+, uma especificação criada pela W3C, que permite que você adicione mais semântica em sua aplicação, fazendo que os navegadores ou tecnologias assistivas consigam reconhecer melhor os seus elementos e permitir o usuário saber o que está acontecendo em sua aplicação.
+
+Referência
+
+https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
+
+https://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html

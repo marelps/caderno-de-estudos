@@ -1,0 +1,12 @@
+# Fundamentos de TI
+## Síntese do capítulo 1: Introdução aos Conceitos Essenciais do capítulo 1
+<img src="img1.png">
+
+## Síntese do capítulo 2: Computadores e periféricos
+<img src="img2.png">
+
+## Síntese do capítulo 3: Armazenamento, representação e virtualização
+<img src="img3.png">
+
+## Síntese do Capítulo 4: Atitudes de Prevenção e Segurança
+<img src="img4.png">

@@ -1,0 +1,48 @@
+Refere-se ao processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador (Aho, 2011; Lee, 2016)
+
+Formulação e resolução de problemas
+
+Sistemático e Eficiente
+
+Pensamento computacional não é um disciplina acadêmica, é uma habilidade generalista e pode ser abrangida para qualquer área de conhecimento como escrita, leitura e matemática
+
+### Baseado em 4 pilares
+
+- Decomposição
+    - Dividir um problema complexo em subproblemas
+- Reconhecimento de padrões
+    
+    Identificar padrões ou tendências, pode ocorrer por similaridades e diferenças entre os problemas, padrão comportamental.
+    
+- Abstração
+    
+    Extrapolar o conceito do problema para uma forma generalista.
+    
+- Design de algoritmos
+    
+    Automatizar, definir passo a passo a solução do problema
+    
+
+### Processo Contínuo
+
+- Definir uma solução
+- Testar a solução
+- Aperfeiçoamento da solução encontrada
+
+Habilidades humanas
+
+1 Abstração - Resolução de problemas
+
+2 Automatização - Expressão de solução
+
+Recursos computacionais
+
+3 Análise - Execução doa solução e avaliação (refinamento)
+
+Variação dos pilares
+
+Raciocínio lógico
+
+Refinamento
+
+Raciocínio Lógico, Decomposição, Padrões, Abstração, Algoritmos, Refinamento

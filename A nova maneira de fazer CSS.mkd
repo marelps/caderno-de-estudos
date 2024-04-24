@@ -1,0 +1,103 @@
+- CSS Puro
+- SASS
+- Styled components
+- Tailwind
+
+BEM CSS
+
+Padrão para como escrever e nomear classe, ID e padronizar o CSS
+
+Linha ferramental de padronização
+
+Lemonade CSS
+
+LESS CSS
+
+SASS
+
+Começo da integração de ferramentas com o CSS e compilando o aplicativo final
+
+Para javascript - Servia para execução de tarefas repetitivas e organizadas
+
+- GRUNT
+- Gulp
+
+CSS-in-JS
+
+Conceito onde a gente escreve o CSS dentro do código JS
+Porque ficou tão famoso?
+
+Com o Angular JS veio a revolução dos SPAs - Single Page Application
+
+Cada vez mais aplicações front-end construidas totalmente com JS
+
+Quando constrói códigos front-end puro com react por exemplo, está se contruindo os SPAs
+
+O JS não é escrito como os documentos de HTML e CSS, ele é gerado, não criado
+
+CSS modules - Uma forma para continuar escrevendo o CSS de uma forma que já escreviamos com o SASS, o Less, CSS puro e trouxe a possibilidade de ler o CSS com o JS e o mais importante que foi o CSS Scoped
+
+CSS Scoped (CSS escoupado)-  Importa um arquivo CSS dentro de um componente (angular) e aquele CSS não interfere no restante da aplicação, somente no arquivo que está importando ele.
+
+Isso era muito importante porque era muito comum que quando o código ficava muito grande muito das coisas ia começando a ter muito interferencia com componentes criados no começo do projeto.
+
+Styled-components também era muito semelhante ao CSS scoped porém para React
+
+Dica do vídeo
+
+O [localhost](http://localhost) pode ser aberto no próprio visual code somente escrevendo o endereço dele, com algum outro atalho *pesquisar sobre isso)
+
+*Pesquisar sobre vite, bom para criação de projetos em react*
+
+Integraçaõ entre o JS e o CSS, exemplo:
+
+```jsx
+interface ButtonProps {
+big?: boolean;
+}
+
+const Button = styled.button<ButtonProps>'
+background-color: pink;
+padding: 12px;
+border-radius: 8px;
+border: 1px solid purple;
+
+${props => props.big && '
+font-size: 64px;
+padding: 40px;
+'}
+'
+
+function App() {
+return (
+<div>
+<button big> Hello World </button>
+<button> Hello World </button>
+</div>
+)
+}
+
+export default App
+```
+
+stitches - resolve muitos problemas que o styled components também resolve porém resolve alguns de manutenabilidade, ajuda a gente a trabalhar com  componentes que podem ter muitas modificações de estilização baseado em propriedades ou variantes. 
+
+chakra ui - CSS de forma declarativa. “Sujar” o HTML com instruções de estilização.
+
+Existem várias formas de escrever CSS, não existe uma forma certa
+
+tailwindcss - também é como o chakra ui, ele “suja” o HTML, muito mais simples
+
+controle de tema dark ou light automatizado
+
+responsivel para mobile e tela desktop
+
+muito fácil e produtivo para essas coisas.
+
+Usar unidades de medidas relativas e não unidades de medidas fixas, usar em rm.
+
+Usando a unidade de medida rem, quando a pessoa usa o navegador dela com uma configuração que aumente o tamanho da fonte, por exemplo, todo os componentes estarão alinhados de acordo com o tamanho configurado do usuário.
+
+REM - Relativo ao tamanho de tela, tamanho da fonte de tela que o usuário deseja utilizar.
+
+transition-colors **pesquisar sobre isso!
