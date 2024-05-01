@@ -2,6 +2,21 @@
 
 Git é um sistema de controle de versão de código utilizado por muitas empresas, existem outros mais ultrapassados, mas os sistemas mais atuais são baseados em git. Algumas empresas são especializadas em fornecer os serviços para o controle de histórico de alterações do código, e diversas outras empresas que utilizam dessas ferramentas para manter a consistência na equipe de desenvolvimento.
 
+### Breve História do Git
+
+**2002**
+O projeto do núcleo (kernel) do Linux, que é open source, começa a utilizar o BitKeeper um DVCS proprietário;
+
+**2005**
+Após conflitos com a comunicadade, BitKeeper rescinde a licença gratuita. O que leva o Linux Torvalds, o criador do Linux, e sua equipe a desenvolverem sua própria ferramenta, o Git.
+
+### Fluxo Básico no Git
+
+- **git clone** Clona um repositório Git existente para um novo diretório (pasta) local.
+- **git commit** Grava alterações no repositório
+- **git pull** "puxa" as alterações do repositório remoto para o local (busca e mescla)
+- **git push** "empurra" as alterações do repositório local para o remoto
+
 ## **Ramos - Branchs**
 
 Para equipes grandes é comum que os desenvolvedores estejam trabalhando em diferentes partes do sistema ao mesmo tempo. Imagine que o sistema principal é como uma arvore, e os desenvolvedores trabalham em pequenas modificaçes (galhos de arvore) que são inseridas na arvore principal quando estão prontos. Assim, desenvolvedores podem trabalhar paralelamente e entregar com qualidade.
