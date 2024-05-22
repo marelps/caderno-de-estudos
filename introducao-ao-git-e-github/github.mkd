@@ -1,13 +1,27 @@
 # Github
+
 Plataforma de hospedagem de código para controle de versão com Git, e colaboração
+
 - Comunidade ativa;
 - Utilizado mundialmente;
 - Mascote "Octocat"
 
 ## Breve histório do Github
+
 **2008** Desenvolvido por Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon.
 
 **2018** Vítima de um dos maiores atques de DDoS (ataque distribuído de negação de serviço, sobrecarga); Comprado pela Microsoft Corporation por US$7,5 bilhões.
 
 ## Git &ne; Github
+
 - Github configura-se como o servidor para os repositórios
+
+### Materiais complementares do curso (DIO)
+
+Repositório Git
+
+O Git é um conceito essencial no mercado de trabalho atualmente, por isso sempre reforçamos sua importância em nossa metodologia educacional. Por isso, todo código-fonte desenvolvido durante este conteúdo foi versionado no seguinte endereço para que você possa consultá-lo a qualquer momento:
+
+https://github.com/elidianaandrade/dio-curso-git-github
+
+[Slide Versionamento de código Git e Github](https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EYjkgVZuUv5HsVgJUEPv1_oB_QWs8MFBY_PBQ2UAtLqucg?rtime=9zkfrSBq3Eg)
