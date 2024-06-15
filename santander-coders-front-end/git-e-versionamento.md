@@ -40,3 +40,9 @@ git restore: Retorna arquivos modificados
 
 ```git restore --staged .\nome do arquivo```
 Identifica onde o comando restore será utilizado, no exemplo feito, o arquivo voltará da area de staged para change novamente.
+
+# Git Branch
+![git branch](image-1.png)
+
+# Merging branches
+```git marge nome da branch q quero juntar```
