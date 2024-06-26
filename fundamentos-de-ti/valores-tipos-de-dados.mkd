@@ -1,0 +1,354 @@
+# Valores, tipos de dados e operadores
+
+## Tipos de dados
+
+Os computadores manipulam bilhões de bits. Para que o manejo destas grandes quantidades de informação seja mais fácil, eles são divididos em “pedaços” que representam partes de informação. No contexto do JavaScript, esses pedaços são chamados de **_values_** (valores, em português). Cada *value* possui um *data type* (tipo de dado) que determina qual a sua funcionalidade. Em JavaScript existem cinco tipos de dados primitivos:
+
+- `number` (número).
+  Os *values* do tipo `number` são, sem muita surpresa, valores numéricos. Ou seja, pedaços de dado que representam uma informação numérica são representados com o tipo `number`. Sua representação inclui números positivos, negativos, inteiros e decimais. Além disso, o tipo de dado `number` possui três valores simbólicos: `+Infinity` (infinito positivo), `-Infinity` (infinito negativo) e `NaN` (not a number, ou “não-número”, em português).
+  Vejamos alguns exemplos. Abra o seu console (lembre-se: clique com o botão direito do mouse > inspect > console) e escreva os seguintes números. Ao tentar, o console retornará o próprio número de volta.
+  ```
+  13
+  // retorna: 13
+
+  -9.81
+  // retorna: -9.81
+
+  ```
+  Você também pode usar a notação científica para números muito grandes ou muito pequenos, adicionando ao número a letra “e” (de “expoente”), seguido pelo expoente do número:
+  ```
+  5e10
+  // retorna: 50000000000
+
+  -2.998e8
+  // retorna: -299800000
+  ```
+- `string` (cadeias de caracteres).
+  O próximo *data type* básico é a `string` (*sequência de caracteres* em português). É o tipo de dado que utilizamos para representar texto. São declaradas ao colocar o conteúdo entre aspas.
+  Abra seu console e escreva:
+  ```
+  "Olá, meu nome é Michelle"
+  // retorna: "Olá, meu nome é Michelle"
+
+  'Sou desenvolvedora web'
+  // retorna: "Sou desenvolvedora web"
+
+  "123"
+  // retorna: "123"
+
+  ```
+  Tanto as aspas simples como as duplas podem ser usadas para declarar `strings`, desde que o início coincida com o fim. Quase tudo pode ser colocado entre aspas, e o JavaScript criará um *string value* a partir do conteúdo entre elas.
+  ***
+  **Pro tip**:
+  Podemos usar tanto aspas simples (`'`) como duplas (`"`) para delimitar nossas strings mas, por convenção, normalmente em cada projeto se escolhe usar uma ou a outra e tomamos cuidado para ser consistentes. Isso ajuda na *clareza* e *manutenção* do código no longo prazo. No nosso caso, vamos escolher as aspas simples daqui pra frente.
+  ***
+  Existe um par de caracteres em `strings` que tem um comportamento especial. Por exemplo, quando uma barra invertida (*backslash* -`\`) se encontra dentro de um texto entre aspas, isso indica que o próximo caractere tem um significado especial. Chamamos isso de *escapar caractere*. Quando o caractere `n` vem depois de uma barra invertida, o par de caracteres é interpretado como uma nova linha. Da mesma forma, um `t` após a barra invertida indica uma tabulação. Escreva os seguintes textos em seu console (lembre-se de sempre colocá-los entre aspas, simples ou duplas).
+  ```
+  'Esta é a primeira linha \n E esta a segunda'
+  // retorna: "Esta é a primeira linha
+  //            E esta a segunda"
+
+  'Minha linguagem favorita é \t JavaScript'
+  // retuns: "Minha linguagem favorita é      JavaScript"
+
+  ```
+  Quando as aspas são precedidas pela barra invertida, elas não terminarão a cadeia de caracteres, mas farão parte dela.
+  ```
+  'Eu \'estudo\' na Laboratoria'
+  // retorna: "Eu 'estudo' na Laboratoria"
+
+  ```
+  Existirão, com certeza, situações em que você desejará que uma barra invertida seja apenas isso em uma cadeia de caracteres, e não um código especial. Se duas barras invertidas estão juntas, vão se tornar apenas uma, e somente uma barra sairá como resultado no valor da cadeia.
+  ```
+  'Um caractere de nova linha está escrito \'\\n\'.'
+  // retorna: "Um caractere de nova linha está escrito '\n'."
+
+  ```
+  Cadeias de caracteres não podem ser divididas como os números, multiplicadas, ou subtraídas, mas o caractere + pode ser utilizado nelas. Ele não soma, mas concatena, ou seja, junta duas strings. A linha a seguir produz a string "concatenar":
+  ```
+  "con" + "cat" + "e" + "nar"
+  // retorna: "concatenar"
+
+  ```
+  Tome cuidado ao misturar *numbers* e *strings* em uma operação. Por exemplo, multiplicar um *número* por uma *string* resulta em NaN.
+  ```
+  "oi" * 3
+  // retorna: NaN
+
+  ```
+  Há outras maneiras de manipular `strings`, como veremos mais adiante.
+- `boolean` (booleano).
+  Muitas vezes, você precisará de um valor que simplesmente diferencie duas possibilidades, como "sim" e "não" ou "ligado" e "desligado". Para isso, o JavaScript tem o tipo de dado *boolean* que possui apenas dois valores: *true* (verdadeiro) e *false* (falso).
+- `undefined` (indefinido).
+  Existem dois valores especiais, escritos como `null` e `undefined`, que são usados para denotar a ausência de um valor significativo. São valores por si só, mas não possuem nenhuma informação. Muitas operações na linguagem que não produzem um valor que tem significado (você verá isso depois) produzem `undefined` simplesmente porque têm que produzir algum valor.
+  A diferença no significado entre `undefined` e `null` é um acidente no desenho do JavaScript, e não importa a maior parte do tempo.
+  Entender a diferença entre `undefined` e `null` (sim existe uma diferença semântica) é importante e mais simples do que parece. Ambos valores denotam da ausência de um valor, mas em um caso podemos dizer que é intencional (`null`) e o no outro não (`undefined`).
+  O valor `undefined` significa que não existe um valor designado, o que é diferente de `null`, que significa que designamos o valor `null`. Este pode ser muito útil para diferenciar o estado em operações assíncronas: é comum que `undefined` signifique que a operação não foi completada, enquanto `null` significa que completou mas o retorno é um valor nulo.
+- `null` (nulo).
+
+Os dados e os tipos de dados formam as bases de qualquer linguagem de programação. Eles nos permitem organizar a informação e determinar como o programa deve ser executado.
+
+- Operadores Aritméticos
+  O que mais se faz com os números é aritmética. Sigamos explorando o comportamento do tipo de dado `number` no seu próprio console. Digite o seguinte exemplo no console e confirme que o resultado é o mesmo:
+  ```
+  100 + 4 * 11
+  // retorna: 144
+
+  ```
+  Os símbolos `+` e `*` são chamados de *operators* (operadores). O primeiro representa a soma e o segundo, multiplicação. Ao colocar um operador entre dois valores, a operação será aplicada a esses valores e produzirá um novo valor. Como pôde perceber, a multiplicação ocorre primeiro. Mas, assim como na matemática, você pode mudar isso colocando a soma entre parênteses.
+  ```
+  (100 + 4) * 11
+  // retorna: 1144
+
+  ```
+  Para a subtração, existe o operador `-`, e a divisão pode ser feita com o operador `/`. Vejamos mais exemplos (não se esqueça de fazê-los em seu console também!):
+  ```
+  12345 / 250
+  // retorna: 49.38
+
+  1234 + 57 * 3 - 31 / 4
+  // retorna: 1397.25
+
+  100 / 0
+  // retorna: Infinity
+
+  100 / -0
+  // retorna: -Infinity
+
+  1000 * Infinity
+  // retorna: Infinity
+
+  0/0
+  // retorna: NaN
+
+  Infinity - Infinity
+  // retorna: NaN
+
+  ```
+  Também há um operador aritmético que pode não ser reconhecido imediatamente. O símbolo `%` é utilizado para representar a operação *resto*. X `%` Y é o resto da divisão de X por Y. Por exemplo, 314 % 100 é 14 (porque 100 multiplicado por 3 + 14 = 314), e 144 % 12 dá 0 (porque 12 multiplicado por 12 + 0 = 144). Você verá este operador frequentemente referido como *módulo* embora, tecnicamente, resto é mais preciso.
+  ```
+  5 % 3
+  // retorna: 2
+
+  7 % 2
+  // retorna: 1
+  ```
+- Operadores Unários
+  Nem todos os operadores são símbolos. Alguns são escritos como palavras. Um exemplo é o operador typeof que produz uma cadeia de texto que representa o tipo do valor que lhe foi passado.
+  ```
+  typeof 4.5
+  // retorna: "number"
+
+  typeof "ola"
+  // retorna: "string"
+
+  typeof NaN
+  // retorna: "number"
+
+  typeof Infinity
+  // retorna: "number"
+
+  ```
+  Note que verificamos que *NaN* e *Infinity* são do tipo `number` (de valor simbólico), como mencionamos anteriormente.
+  Os outros operadores que vimos operavam sobre dois valores, mas `typeof` só recebe um. Operadores que utilizam dois valores são chamados de operadores *binários*, enquanto aqueles que só recebem um são chamados de operadores *unários*.
+  O operador menos (`-`) pode ser usado tanto como um operador binário como unário.
+  ```
+  - (10 - 2)
+  // retorna: -8
+  ```
+- Operadores comparativos
+  Faça estas comparações em seu console:
+  ```
+  3 > 2
+  // retorna: true
+
+  2 > 3
+  // retorna: false
+
+  typeof (3 > 2)
+  // retorna: "boolean"
+
+  typeof (2 > 3)
+  // retorna: "boolean"
+
+  ```
+  Os sinais > e < são os símbolos clássicos de "é maior que" e "é menor que", respectivamente. Estes são operadores binários (porque operam sobre dois valores). Aplicá-los resulta em um valor de tipo *boolean* que indica se estão corretos.
+  As `strings` podem ser comparadas da mesma maneira.
+  ```
+  "Aardvark" < "Zoroaster"
+  // retorna: true
+
+  ```
+  A forma pela qual as `strings` são ordenadas é mais ou menos alfabética: em JavaScript, as letras maiúsculas são sempre "menores" que as minúsculas, por isso "Z" < "a" é *true*, e os caracteres não alfabéticos (!, -, e assim por diante) também estão incluídos na ordenação. A comparação efetiva é baseada no padrão [Unicode](https://unicode-table.com/en/#control-character).
+  ```
+  "Zeyla" < "ana"
+  // retorna: true
+
+  "Zeyla" < "!na"
+  // retorna: false
+
+  ```
+  Outros operadores similares são >= (maior ou igual a), <= (menor ou igual a), == (igual a) e != (não é igual a).
+  ```
+  "Itchy" == "Itchy"
+  // retorna: true
+
+  "Itchy" != "Scratchy"
+  // retorna: true
+
+  5 == 5
+  // retorna: true
+
+  10 != "dez"
+  // retorna: true
+
+  ```
+  Só existe um valor em JavaScript que não é igual a si mesmo: o NaN, que significa "não é um número".
+  ```
+  NaN == NaN
+  // retorna: false
+
+  ```
+  A intenção do NaN é representar o resultado de um cálculo sem sentido e, como tal, não é igual ao resultado de qualquer outro cálculo sem sentido.
+- Operadores Lógicos
+  Há também algumas operações que podem ser aplicadas a valores `booleans`. O JavaScript dá suporte a três operadores lógicos: *and*, *or* e *not*. Eles podem ser usados para estabelecer relações entre `booleans`.
+  O operador `&&` representa a operação lógica *and* ("e"). É um operador binário, e o seu resultado é *true* (verdadeiro) somente se os dois valores fornecidos forem verdadeiros. O operador `||` denota a operação lógica or ("ou") e devolve verdadeiro quando qualquer um dos dois valores dados for verdadeiro. *Not* (negação) é escrito como o símbolo de exclamação `!`. É um operador binário que inverte o valor que lhe é dado: !true resulta em false e !false tem como resultado true. Vejamos alguns exemplos:
+  ```
+  true && true
+  // retorna: true
+
+  true && false
+  // retorna: false
+
+  false && false
+  // retorna: false
+
+  true || true
+  // retorna: true
+
+  true || false
+  // retorna: true
+
+  !true
+  // retorna: false
+
+  !false
+  // retorna: true
+
+  ```
+  O último operador lógico que você aprenderá não é unário. Este é escrito usando um símbolo de interrogação e dois pontos, da seguinte forma:
+  ```
+  true ? 1 : 2
+  // retorna: 1
+
+  false ? 1 : 2
+  // retorna: 2
+  ```
+- \***\*Conversão automática de tipo\*\***
+  Quando um operador é aplicado ao tipo "incorreto" de valor, o JavaScript mudará silenciosamente o valor no tipo de dado que espera, usando um conjunto de regras que frequentemente não são as que você quer ou espera. Isto é chamado *coerção de tipo*. Olha estes exemplos:
+  ```
+  8 * null
+  // retorna: 0
+
+  "5" - 1
+  // retorna: 4
+
+  "5" + 1
+  // retorna: 51
+
+  "cinco" * 2
+  // retorna: NaN
+
+  false == 0
+  // retorna: true
+
+  ```
+  O null na primeira expressão muda para 0, e o "5" na segunda expressão torna-se 5 (de string a number). Todavia, na terceira expressão, o + tenta fazer concatenação de strings antes de uma soma numérica, assim o 1 é convertido em "1" (de number a string). Quando algo que não corresponde com um número de forma óbvia (como o "cinco" ou o undefined) é convertido em número, o valor resultante é NaN. As seguintes operações aritméticas sobre NaN continuaram produzindo NaN. É por isso que, na quarta expressão, "cinco" \* 2 devolve NaN.
+  No caso da quinta expressão, quando comparamos valores que têm tipos de dados diferentes, o JavaScript usa um conjunto de regras, complicado e confuso, para determinar o que fazer. Na maioria dos casos, só tenta converter um dos valores ao tipo de dado do outro valor. Contudo, quando `null` ou `undefined` estão em qualquer lado da operação, resulta verdadeiro só no caso de que os dois lados sejam `null` ou `undefined`.
+  Continuando com a quinta expressão, as regras para converter cadeias e números a booleanos dizem que 0, NaN e a cadeia vazia ("") contam como *false*, enquanto todos os outros valores contam como *true*. É por isso que as seguintes expressões devolvem *true*:
+  ```
+  false == 0
+  // retorna: true
+
+  "" == 0
+  // retorna: true
+
+  ```
+  Para casos em que você não quer que aconteça nenhuma conversão automática de tipos, existem dois operadores extras: === e !==. O primeiro prova se um valor é precisamente igual a outro, e o segundo se não é precisamente igual. Portanto, ao mudar de == a === as mesmas expressões anteriores, temos o resultado contrário: *false*:
+  ```
+  false === 0
+  // retorna: false
+
+  "" === 0
+  // retorna: false
+  ```
+- **Notas sobre comparações de igualdade/desigualdade**
+  Veremos agora algumas particularidades sobre os operadores de igualdade (`==`, `!=`, `===`, `!==`). Ao fim da leitura deixaremos como referência para você o link para a documentação oficial de operadores e expressões no MDN que recomendamos que você *leia* (ou olhe pelo menos).
+  ## **Diferença entre `==` e `===`**
+  ### **Algoritmo de `==`**
+  Quando avaliamos dois valores com este operador, a sequência a seguir é executada para determinar o resultado:
+  - Se são do mesmo tipo, então são comparados com ===.
+  - Se são de tipos diferentes:
+    - Se um é `null` e outro é `undefined`, retorna `true`.
+    - Se um é uma `string` e outro é um `number`, ele é convertido para `string` e são comparados como números.
+    - Se um é booleano, são convertidos: `true` em 1 e `false` em 0, e se comparam.
+    - Se um é um objeto e outro é um `number` ou `string`, converte o objeto para um primitivo.
+    - Em outros casos, retorna `false`.
+  ```
+  null == undefined // true
+  10 == '10'        // true
+  true == 1         // true
+  [10] == 10        // true
+  [] == []          // false
+  {} == {}          // false
+
+  ```
+  ### **Algoritmo de `===`**
+  Esta igualdade é mais restrita com os resultados, utilizando a sequência a seguir para determinar o resultado:
+  - Se possuem tipos diferentes, retorna `false`.
+  - Se ambos são `null`, retorna `true`.
+  - Se ambos são `undefined`, retorna `true`.
+  - Se ambos são `NaN`, retorna `false`.
+  - Se ambos são `true` ou `false`, retorna `true`
+  - Se ambos são `number` e possuem o mesmo valor, retorna `true`.
+  - Se ambos são `string` e possuem o mesmo valor, retorna `true`.
+  - Em outros casos, retorna `false`.
+  ```
+  21 === "21"         // false
+  undefined === null  // false
+  NaN === NaN         // false
+  [10] === 10         // false
+  true === 1          // false
+  [] === []           // false
+  {} === {}           // false
+  '10' === '10'       // true
+
+  ```
+  Você pode considerar o seguinte para saber qual operador utilizar:
+  - Se qualquer dos valores é booleano, utilize `===`.
+  - Se não tiver certeza se os valores podem ser convertidos por coerção, utilize `===`.
+  - Nos outros casos pode utilizar `==` com certeza.
+  > Nota: Por convenção, e uma boa prática a comunidade incentiva o uso de ===.
+  ## **Desigualdades**
+  Sempre o resultado de comparação de uma desigualdade é um booleano. Os operadores a seguir são utilizados para comparar desigualdades:
+  ```
+  <  → Menor
+  >  → Maior
+  <= → Menor Igual
+  >= → Maior Igual
+
+  ```
+  Situações de uso:
+  - Se algum é um `object`, converte-se para primitivo e é comparado.
+  - Se ambos são `string`, é comparada a ordem dos caracteres alfabeticamente.
+  - Se ambos são `number`, são comparados.
+  - Em outros casos retorna `false`.
+  ```
+  [10] < 9    // false, caso 1
+  "a" < "b"   // true, caso 2
+  10 >= 10    // true, caso 3
+  ```
+
+## **Leituras complementares**
+
+[Expressões e Operadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)

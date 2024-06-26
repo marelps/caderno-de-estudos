@@ -1,3 +1,4 @@
+# Manipulanod strings e numbers, comentários
 ## **Aprendendo sobre `string.length`**
 
 No mundo da tecnologia a **auto-aprendizagem** é essencial. Constantemente aparecem ferramentas, linguagens ou tecnologias novas que você precisa aprender por conta própria para se manter atualizado. Portanto, é importante que, desde o início do seu caminho no mundo da programação, você se acostume em aprender por conta própria e ter o controle do seu crescimento profissional.
