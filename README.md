@@ -1,13 +1,15 @@
-# Meus estudos
-
+# 📚 Meus estudos
 Repositório com o objetivo de reunir anotações e exercícios realizados durante cursos e bootcamps que foram realizados ou que estão sendo realizados.
 
-## Anotações publicadas
+## 📔 Anotações publicadas
+
+- [Algorimos e Pseudocódigo](https://github.com/marelps/caderno-de-estudos/tree/main/algoritmos-e-pseudocodigo)
 
 - CSS
-  - [A nova maneira de fazer CSS]()
-  - [Criando um site estático com CSS Grid Layout]()
-  - [Organic Cascade Style Sheet (oCSS)]()
+  - [A nova maneira de fazer CSS](https://github.com/marelps/caderno-de-estudos/blob/main/css/introducao-a-acessibilidade-web.mkd)
+  - [Criando um site estático com CSS Grid Layout](https://github.com/marelps/caderno-de-estudos/blob/main/css/criando-site-estatico-css-grid-layout.mkd)
+  - [Introdução a Acessibilidade Web](https://github.com/marelps/caderno-de-estudos/blob/main/css/introducao-a-acessibilidade-web.mkd)
+  - [Organic Cascade Style Sheet (oCSS)](https://github.com/marelps/caderno-de-estudos/blob/main/css/organic-cascade-style-sheet.mkd)
 
 - Design
   - [História e Fundamentos do Design](https://github.com/marelps/caderno-de-estudos/tree/main/design/Hist%C3%B3ria%20e%20Fundamentos%20do%20Design)
@@ -16,7 +18,16 @@ Repositório com o objetivo de reunir anotações e exercícios realizados duran
 - Exercicios
   - [Exercícios livres](https://github.com/marelps/caderno-de-estudos/blob/main/exercicios/Exerc%C3%ADcios%20livres.mkd)
 
-- [Fundamentos de TI](https://github.com/marelps/caderno-de-estudos/tree/main/fundamentos-de-ti)
+- Fundamentos de TI
+  - [Conceitos Essenciais](https://github.com/marelps/caderno-de-estudos/tree/main/fundamentos-de-ti/conceitos-essenciais)
+  - [Lógica de Programação Essencial](https://github.com/marelps/caderno-de-estudos/blob/main/fundamentos-de-ti/logica-de-programacao-essencial.mkd)
+  - [Pensamentos Computacionais](https://github.com/marelps/caderno-de-estudos/blob/main/fundamentos-de-ti/pensamento-computacional.mkd)
+  - [Valores, tipos de dados e operadores](https://github.com/marelps/caderno-de-estudos/blob/main/fundamentos-de-ti/valores-tipos-de-dados.mkd)
+
+- Iniciante em Programação - ONE
+  - [Lógica de porgramação - Javascript](https://github.com/marelps/caderno-de-estudos/blob/main/iniciante-em-programacao-one-t7-oracle-alura/logica-de-programacao-javascript.mkd)
+
+- [Introdução a linguagem HTML](https://github.com/marelps/caderno-de-estudos/tree/main/introducao-a-linguagem-html)
 
 - Introdução do Git e Github
   - [Git](https://github.com/marelps/caderno-de-estudos/blob/main/introducao-ao-git-e-github/git.mkd)
@@ -26,44 +37,32 @@ Repositório com o objetivo de reunir anotações e exercícios realizados duran
   - [Aprendendo a sintaxe Java](https://github.com/marelps/caderno-de-estudos/blob/main/java/aprendendo-a-sintaxe-java.md)
   - [JAVA Básico](https://github.com/marelps/caderno-de-estudos/blob/main/java/java-basico.md)
   
-- [Javascript - Conceito Básico](https://github.com/marelps/caderno-de-estudos/tree/main/javascript-conceito-basico)
+- Javascript - Conceito Básico
+  - [Javascript - Conceito Básicos](https://github.com/marelps/caderno-de-estudos/blob/main/javascript-conceito-basico/javascript-conceitos%20basicos.mkd)
+  - [Manipulando strings e numbers](https://github.com/marelps/caderno-de-estudos/blob/main/javascript-conceito-basico/strings-numbers.mkd)
 
 - [Python 3](https://github.com/marelps/caderno-de-estudos/tree/main/python-3)
 
 - [React JS](https://github.com/marelps/caderno-de-estudos/tree/main/react-js)
 
+- ReadMe
+  - [Modelo de ReadMe](https://github.com/marelps/caderno-de-estudos/blob/main/readme/modelo-readme.mkd)
+  - [O que é ReadMe](https://github.com/marelps/caderno-de-estudos/blob/main/readme/o-que-e.mkd)
 
-<!-- 
+- Trilhas de carreira
+  - [Front-end](https://github.com/marelps/caderno-de-estudos/blob/main/trilhas-de-carreira/front-end.mkd)
+  - Santander Coders - Front-end
+    - [CSS](https://github.com/marelps/caderno-de-estudos/blob/main/trilhas-de-carreira/santander-coders-front-end/css.md)
+    - [Git e Versionamento](https://github.com/marelps/caderno-de-estudos/blob/main/trilhas-de-carreira/santander-coders-front-end/git-e-versionamento.md)
+    - [HTML](https://github.com/marelps/caderno-de-estudos/blob/main/trilhas-de-carreira/santander-coders-front-end/html.md)
 
+- Variáveis
+  - [Regras para se criar uma variável](https://github.com/marelps/caderno-de-estudos/blob/main/variaveis/regras-variavel.mkd)
+  - [Variáveis](https://github.com/marelps/caderno-de-estudos/blob/main/variaveis/variaveis.mkd)
 
-## Anotações incompletas
-- [Variáveis]()
-- [O que são algoritmos e pseudocodigo]()
-- [Fundamentos de TI]()
+## 💻 Estudo atual
+- [Java](https://github.com/marelps/caderno-de-estudos/tree/main/java)
+- [Iniciante em programação - ONE](https://github.com/marelps/caderno-de-estudos/tree/main/iniciante-em-programacao-one-t7-oracle-alura)
 
-## Estudo atual
-- [Introduction To Scrum]()
-- [React]()
-- [Javascript]() 
-
-
-- Santander Coders - Front End
-  - [CSS](https://github.com/marelps/caderno-de-estudos/blob/main/santander-coders-front-end/css.md)
-  - [Git e Versionamento](https://github.com/marelps/caderno-de-estudos/blob/main/santander-coders-front-end/git-e-versionamento.md)
-  - [HTML](https://github.com/marelps/caderno-de-estudos/blob/main/santander-coders-front-end/css.md)
-
-- [Variaveis](https://github.com/marelps/caderno-de-estudos/tree/main/variaveis)
-- [Introução à Acessibilidade Web](https://github.com/marelps/caderno-de-estudos/blob/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Acessibilidade%20Web.mkd)
-- [Lógica de Programação Essencial](https://github.com/marelps/caderno-de-estudos/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20essencial.mkd)
-- [Manipulando strings e numbers, comentários](https://github.com/marelps/caderno-de-estudos/blob/main/Manipulando%20strings%20e%20numbers%2C%20coment%C3%A1rios.mkd)
-- [O que é um README](https://github.com/marelps/caderno-de-estudos/blob/main/O%20que%20%C3%A9%20um%20Read%20Me.mkd)
-- [Pensamento Computacional](https://github.com/marelps/caderno-de-estudos/blob/main/Pensamento%20Computacional.mkd)
-- [Trilha de Carreira - Front End](https://github.com/marelps/caderno-de-estudos/blob/main/Trilha%20de%20carreira%20em%20Front-End.mkd)
-- [Um modelo para fazer um bom README](https://github.com/marelps/caderno-de-estudos/blob/main/Um%20modelo%20para%20fazer%20um%20bom%20README.mkd)
-- [Valores, tipos de dados e operadores](https://github.com/marelps/caderno-de-estudos/blob/main/Valores%2C%20tipos%20de%20dados%20e%20operadores.mkd)
-
-
-
-- [Introdução da Linguagem HTML](https://github.com/marelps/caderno-de-estudos/tree/main/introducao-a-linguagem-html)
-
--->
+## 📖 Livros - Anotações
+- [Entendendo algoritmos](https://github.com/marelps/caderno-de-estudos/tree/main/entendendo-algoritmos)
