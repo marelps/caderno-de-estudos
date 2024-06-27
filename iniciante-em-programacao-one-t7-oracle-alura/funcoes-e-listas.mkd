@@ -1,0 +1,2 @@
+Anotações referente ao curso da Alura
+# Lógica de programação: explore funções e listas
