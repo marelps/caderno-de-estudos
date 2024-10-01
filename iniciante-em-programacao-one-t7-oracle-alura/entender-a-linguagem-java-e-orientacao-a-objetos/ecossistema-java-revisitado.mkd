@@ -1,3 +1,6 @@
+# Ecossistema Java Revisitado
+[Podcast Alura](https://cursos.alura.com.br/extra/hipsterstech/ecossistema-java-revisitado-hipsters-ponto-tech-313-a1597)
+
 - Utilizado em sistemas corporativos, que visa a longevidade do sistema
 - Projetado para durar 10, 20, 30 anos
 - As pessoas esperam que a aplicação tenha uma longevidade e que daqui 10 anos aquela aplicação ainda tenha suporte
