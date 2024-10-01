@@ -1,0 +1,82 @@
+# Java: O que é, linguagem e um Guia para iniciar na tecnologia
+[Artigo referência - Alura](https://www.alura.com.br/artigos/java)
+
+Nasceu em 1995 em Sun Microsystem. Entrega um ambiente completo para o desenovolvimento e execução de programas, composto por:
+
+- Uma linguagem de programação de alto nível orientada a objetos;
+- Máquina Virtual (Java Virtual Machine ou JVM), que garante independência de plataforma, pois o código executa na maquina virtual e essa pode ser portada para outras plataformas como Windows ou Linux;
+- Java Runtime Environment ou JRE, que agrega a máquina virtual e alguns recursos para a execução de aplicações Java;
+- Java Development Kit ou JDK, que é um conjunto de utilitários que oferece suporte ao desenvolvimento de aplicações.
+
+Escrito em extensões `.java`, que em um processo posterior serão compilados para `.class`
+![.java, . class, bytecodes](image.png)
+
+### JVM
+>Escreva uma vez e execute em qualquer lugar
+
+
+## História
+![História](image-1.png)
+| **Ano** | **Versão** | **Nome**   | **Novidades**                                                                                               | **** | **** | **** | **** | **** | **** |
+|---------|------------|------------|-------------------------------------------------------------------------------------------------------------|------|------|------|------|------|------|
+| 1996    | 1.0        | Oak        | Primeira versão oficial                                                                                     |      |      |      |      |      |      |
+| 1997    | 1.1        | Oak        | Adição de classes internas                                                                                  |      |      |      |      |      |      |
+| 1998    | 1.2        | Playground | Reflexão e compilação Jit                                                                                   |      |      |      |      |      |      |
+| 2000    | 1.3        | Kestrel    | Adição da tecnologia de HotSpot na JVM                                                                      |      |      |      |      |      |      |
+| 2002    | 1.4        | Merlin     | Exceptions encadeadas                                                                                       |      |      |      |      |      |      |
+| 2004    | 5.0        | Tiger      | Autoboxing,foreach, Enumerações, genéricos e anotações                                                      |      |      |      |      |      |      |
+| 2006    | 6          | Mustang    | Suporte a Scripting, Java Compiler e JDBC 4.0                                                               |      |      |      |      |      |      |
+| 2011    | 7          | Dolphin    | String em switch, Multicatch e Inferência de tipos genéricos                                                |      |      |      |      |      |      |
+| 2014    | 8          | -          | Lambda expression, melhoras nas anotações, nova API Date-Time e paralelização de operações                  |      |      |      |      |      |      |
+| 2017    | 9          | -          | API JShell, JLink, remoção do JavaDB, nova API para moedas, nova API Json e métodos privados em interfaces  |      |      |      |      |      |      |
+| 2018    | 10         | -          | Melhoria no Garbage Collector e variáveis locais autotipadas                                                |      |      |      |      |      |      |
+| 2018    | 11         | -          | No-Op Garbage Collector, HTTP Client, uso do var em expressões lambda, Flight Recorder                      |      |      |      |      |      |      |
+| 2019    | 12         | -          | Suporte ao Unicode 11, formatação de números no padrão SHORT                                                |      |      |      |      |      |      |
+| 2019    | 13         | -          | Suporte ao Unicode 12.1                                                                                     |      |      |      |      |      |      |
+| 2020    | 14         | -          | Switch Expression, melhoria no NullPointerException                                                         |      |      |      |      |      |      |
+| 2020    | 15         | -          | Classes ocultas e melhorias JDK para Windows                                                                |      |      |      |      |      |      |
+| 2021    | 16         | -          | API de acesso à memória externa e aviso em classes baseadas por valor                                       |      |      |      |      |      |      |
+| 2021    | 17         | -          | Classes seladas, novo pipeline de renderização do macOS e Melhorias no DatagramaSocket                      |      |      |      |      |      |      |
+| 2022    | 18         | -          | UTF-8 por padrão, servidor web simples e API para trabalhar com computação vetorial                         |      |      |      |      |      |      |
+| 2022    | 19         | -          | Threads virtuais, novos formatos para Datetime e Padrão record                                              |      |      |      |      |      |      |
+
+
+## Tecnologia Java
+Idealizando que um mesmo programa possa funcionar em diferentes sistemas operacionais e dispositivos
+- Java Standard Edition ou `JavaSE`
+- Java Enterprise Edition ou `JavaEE`
+
+### Java Standard Edition
+Fornece um ambiente para o desenvolvimento de aplicações de pequeno e médio porte, além de um conjunto de APIs base da plataforma e a JVM padrão.
+
+### Java Enterprise Edition
+Focado em desenvolvimento de aplicações empresariais multicamadas de grande porte e provê serviços adicionais, ferramentas e APIs para simplificar a criação de aplicações complexas.
+
+### Java é gratuito?
+O Java é gratuito para estudo e testes, porém, para uso comercial e suporte você deverá desembolsar um valor para licenciamentos.
+
+## A linguagem Java
+
+### Independência de plataforma
+Não são compilados para uma plataforma específica como Windows, Linux ou Mac;
+Elas são transformadas para uma linguagem intermediária chamada `bytecodes`
+
+### Orientação a Objetos
+O Java trabalha com orientação a objetos ou seja, abstração, encapsulamento de código e herança, o que lhe confere também uma curva de aprendizagem bem suave.
+
+### Não usa ponteiros
+O programador não precisa se preocupar em gerenciar os objetos na memória
+
+### Multithread
+A plataforma permite a execução concorrente de várias rotinas de uma aplicação, o que possibilita a construção de aplicações Java robustas e modernas.
+
+### Perfomance
+Tem foco em ser compacto. Na utilização da JVM, durante a evolução da plataforma, foi incorporado o JIT (Just In Time), que converte os bytecodes em código nativo, o que trouxe ainda mais performance em sua utilização.
+
+### Segurança
+Pensando na implementação de aplicações em redes, o Java entrega uma boa solução para segurança das aplicações nele desenvolvidas. Há possibilidade de se especificar o nível de segurança ou determinar que aplicativos como applets sejam seguros ou não.
+
+Além dessas características, a linguagem Java é bastante robusta e permite o trabalho com tipos numéricos, como inteiro ou ponto flutuante, de acordo com padrões internacionais, além de implementar e incentivar o controle de erros pela aplicação. A Sintaxe da linguagem também é bem simples, o que explica em parte como ela se tornou uma das linguagens orientadas a objetos mais populares do mundo.
+
+### Sintaxe da Linguagem Java
+
