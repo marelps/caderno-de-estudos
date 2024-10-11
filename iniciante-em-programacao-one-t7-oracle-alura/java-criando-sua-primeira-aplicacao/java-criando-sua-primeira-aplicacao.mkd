@@ -1,1 +1,9 @@
 # Java: Criando a sua primeira aplicação
+[IntelliJ IDEA: dicas e truques para usar no dia a dia](https://www.alura.com.br/artigos/intellij-idea-dicas-truques-usar-no-dia-a-dia)
+
+## Processo de compilção
+![Processo de compilação](image.png)
+![Com Java Virtual Machine](image-1.png)
+A JVM é uma ferramenta muito importante no mundo Java, pois ela permite que uma aplicação possa ser executada em múltiplos sistemas operacionais distintos. Para complementar seus estudos, separei um artigo que mostra mais detalhes sobre o processo de compilação e execução de uma aplicação Java pela JVM.
+
+[JVM: conhecendo o processo de execução de código](https://www.alura.com.br/artigos/jvm-conhecendo-processo-execucao-de-codigo)
