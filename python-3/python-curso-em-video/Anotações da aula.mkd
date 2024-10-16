@@ -1,0 +1,95 @@
+# Python 3 - Mundo 1 (Curso em Vídeo)
+## Módulos
+- Introdução ao mundo da programação
+- Primeiros passos com Python
+- Tratando dados e fazendo conta
+- Usando módulos do Python
+- Condições em Python (if,, else)
+- Adicionando cores ao Python
+- Teste Python Mundo 1
+
+## Aula 2 - Para que serve o Python?
+### 1982
+- Amsterdã
+- Guido Van Hossum
+    - Queria criar uma linguagem que fosse interpretada mas que fosse simples, com comandos fáceis de entender
+    - Achava a linguagem C utilizada na época muito complexa e que somente programadores com muitissimas experiencias conseguem lidar.
+- Monty Python's Flying Circus
+
+### 1995
+- Veio para o EUA e lançou um projeto para ensinar as pessoas a programar
+- CP4E: Computer programming 4 everybody
+    - Recebeu o financiamento do DARPA
+        - Darpa: Responsável pela criação da Internet
+
+### 2001
+- Criou a Python Software Foundation (ONG)
+
+### Atualmente
+- Atualmente a linguagem evolui de acordo com a comunidade
+- Hoje em dia a PSF é apoiada por um monte de empresa conhecida como a Microsoft, Google, Globo.com
+- A linguagem é utilizada em um monte de Sistema Operacional como linguagem padrão como: Amigo OS, NetBSD, MAC OS e todas as versões do Linux.
+- RaspberryPI - Utiliza python
+- MinecraftPI - Utiliza python junto com Minecraft para ensinar a linguagem de programação.
+
+## Python é
+-  Uma linguagem de propsito geral, sem foco a um lugar só
+- Fácil e intuitivo
+- Mutliplataforma
+- Batteries included. A essencia dele já vem tudo incluso além de ser possível colocar ainda mais coisas.
+- Código livre
+- Organizada
+- Orientada a objetos
+- Muitas bibliotecas
+
+## Zen of Python
+- Bonito é melhor que feio.
+- Explícito é melhor que implícito.
+- Simples é melhor que complexo.
+- Linear é melhor do que aninhado
+- Esparso é melhor que denso.
+- Legibilidade conta.
+- Casos especiais não são espeicais o bastante para quebra as regras.
+- Ainda que praticidade vença a pureza.
+- Erros nunca devem passar silenciosamente.
+- A menos que sejam explicitamente silenciados.
+- Diante de ambiguidade, recuse a tentação de adivinhar.
+- Deveria haver um - e preferencialmente só um - modo óbvio para fazer algo.
+- Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês.
+- Agora é melhor que nunca.
+- Embora nunca frequentemente seja melhor que **já**.
+- Se a imprementação é dificil de explica, é uma má ideia.
+- Se a implementação é fácil de explicar, pode ser uma boa ideia.
+- Namespaces são uma grande ideia - vamos ter mais dessas!
+
+## Principais áreas
+Python suporta calculos muito grandes
+- Inteligencia Artificial
+- Biotecnologia
+- Computação 3D
+
+## Quem usa Python
+### Empresas
+- Zope
+- Air Canada
+- Bit Torrent
+- Globo.com
+- Google
+    - Web Crawler
+- Youtube
+- Nasa
+- Industrial Light & Magical (Star Wars)
+
+### Softwares
+- Autodesk
+    - Maya
+- Blender
+- Gimp
+- Arduino
+
+### Games
+- Frets of Fire
+- Jewel Quest
+- EVE Online
+- Civilizatio IV
+- Battlefield 2
