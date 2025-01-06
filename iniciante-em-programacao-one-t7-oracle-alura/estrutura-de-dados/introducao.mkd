@@ -1,0 +1,6 @@
+Resumo baseado no texto [Estrutura de Dados: computação na prática com Java](https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java) no site da Alura para compreenção do curso de Java.
+# Estrutura de Dados: computação na prática com Java
+## Introdução
+Estrutura de dados é a forma de organizar e guardar dados e que seja utilizado de maneira eficiente.
+
+## Armazenamento sequencial de Vetores

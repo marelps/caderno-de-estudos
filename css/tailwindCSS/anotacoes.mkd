@@ -1,0 +1,22 @@
+É um utility-first CSS framework que prioriza a construção ultra-rápida de interfaces custommizadas
+
+* utility-first: Atributos CSS -> color, font-size, margin, padding, etc
+
+Estrutura CSS de baixo nível altamente personlizável que fornece todos os blocos de construção de que você precisa para criar design sob medidas
+
+## Principais características
+### Utiliy-first
+Usando uma abordagem tradicional em que projetos personalizados exigem CSS personalizado
+
+### Design responsivo
+Cada classe no Tailwind pode ser aplicada condicionalmente em diferentes breakpoints, o que torna muito fácil construir interface responsivas complexas sem nunca deixar seu HTML.
+- md:w-32
+- lg:w-48
+
+### Estados (hover, focus...)
+Semelhante ao modo como o Tailwind  lida com o design responsivo, estilizar elementos com hover, focus, podem ser realizados prefixando com a variante de estado apropriada.
+- hover:text-gray-300
+- focus:ring-2
+
+### Dark mode
+Dark mode é um recurso de muitos sistemas operacionais e está se tornando cada vez mais
