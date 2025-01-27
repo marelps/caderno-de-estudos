@@ -1,26 +1,25 @@
-É mais importante você resolver o problema do que entender código
+# Algoritmos e Pseudocódigo
+## Anotações do curso
+- É mais importante você resolver o problema do que entender código
  
  
-O que é  lógica?
-"Lógica é  coerência de raciocínio, de ideias"
-"Sequência coerente,  regular e necessária de acontecimentos, coisas"
+## O que é lógica?
+*"Lógica é  coerência de raciocínio, de ideias"*
+*"Sequência coerente, regular e necessária de acontecimentos, coisas"*
  
-O que é lógica de programação?
-"Significa apenas contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema"
+## O que é lógica de programação?
+*"Significa apenas contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema"*
  
-Metacognicao
-"Pensar como você pensa"
+**Metacognicao:** "Pensar como você pensa"
  
-Abstração
-É a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais
- 
- 
+**Abstração:** É a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais
 
-O que é um algoritmo?
-"é uma sequência de passos que resolve um problema"
+## O que é um algoritmo?
+*"É uma sequência de passos que resolve um problema"*
  
-Exemplo:
-Início-dia
+### Exemplo:
+~~~markdown
+# Início-dia
 Acordei
 Levantei da cama
 Troquei de roupa
@@ -29,30 +28,28 @@ Fui a padaria
 Tomei café
 Escovei os dentes
 Fui ao trabalho
-...
-Fim-dia
+[...]
+# Fim-dia 
+~~~
  
 É importante que essa ordem seja respeita e caso seja alterada, algum erro pode acontecer
  
-Função repetir
-Repete uma ação
+**Função repetir:** Repete uma ação
  
-Função condicional
-"Se existir algo, faça tal coisa"
-Se existir lava, coloque pedregulho
- 
-Isso diminui as linhas de código
+**Função condicional** 
+- *"Se existir algo, faça tal coisa"* Se existir lava, coloque pedregulho. 
+- Isso diminui as linhas de código
  
  
-Pseudocódigo
+## Pseudocódigo
 É uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa, ou seja, em português a quem o escreve, de forma a ser entendida por qualquer pessoa)
 É utilizado somente para você aprender a programar, numa prática real, você utiliza a línguagem que você ira aprender
  
-Exemplo:
+### Exemplo:
 Aquela sittuação da "Ovelha, lobo e repolho" onde a ovelha e o lobo não podem ficar juntos, assim como a ovelha e o repolho também não podem ficar juntos, no fim, haverá também um pseudocódico para essa situação
  
-Exemplo
-INICIO DO JOGO
+~~~markdown
+# INICIO DO JOGO
 Ovelha entra no barco
 Atravessa
 Ovelha sai do barcco
@@ -60,6 +57,8 @@ Atravessa
 Repolho entra no barco
 Atravessa
 [....]
-FIM DO JOGO
-studio.code.org/s/mc/stage/1/puzzle/1
-proprofs.com/games/wolf-sheep-and-cabbage/
+# FIM DO JOGO
+~~~
+
+[Referência - Exemplo](https://studio.code.org/s/mc/lessons/1/levels/1proprofs.com/games/wolf-sheep-and-cabbage)
+
